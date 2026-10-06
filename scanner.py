@@ -18,9 +18,10 @@ INDEX_NAMES = {"^GSPC": "S&P 500", "^DJI": "Dow Jones", "^IXIC": "Nasdaq",
 
 # ---- Strategy settings ----
 LOOKBACK = 40      # bars used to fit the regression channel
-BAND_MULT = 2.0    # standard deviations for channel width
+BAND_MULT = 1.5    # standard deviations for channel width
 INTERVAL = "1h"
-PERIOD = "5d"
+PERIOD = "15d"     # 5d wasn't enough for indices -- they only trade market hours,
+                   # so 5 calendar days was coming up short of 40 hourly bars
 
 TELEGRAM_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 TELEGRAM_CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
@@ -84,10 +85,13 @@ def candlestick_signal(df):
         return None, None
     lower_wick = min(o[-1], c[-1]) - l[-1]
     upper_wick = h[-1] - max(o[-1], c[-1])
+    body_r, lower_r, upper_r = body / rng, lower_wick / rng, upper_wick / rng
 
-    if lower_wick > body * 2 and upper_wick < body:
+    # Ratios of the whole candle range, not just a multiple of the body --
+    # avoids a near-zero body trivially passing the old body*2 check.
+    if body_r < 0.3 and lower_r > 0.6 and upper_r < 0.15:
         return "buy", "Hammer"
-    if upper_wick > body * 2 and lower_wick < body:
+    if body_r < 0.3 and upper_r > 0.6 and lower_r < 0.15:
         return "sell", "Shooting star"
     if len(c) >= 2:
         if c[-2] > o[-2] and c[-1] < o[-1] and o[-1] > c[-2] and c[-1] < o[-2]:
@@ -97,39 +101,72 @@ def candlestick_signal(df):
     return None, None
 
 
+STATE_FILE = "state.json"
+RESULTS_FILE = "results.json"
+MAX_RESULTS = 50  # how many recent alerts the Mini App feed keeps
+
+
+def load_json(path, default):
+    if os.path.exists(path):
+        try:
+            with open(path) as f:
+                return json.load(f)
+        except Exception:
+            return default
+    return default
+
+
 def scan():
-    alerts = []
+    state = load_json(STATE_FILE, {})
+    results = load_json(RESULTS_FILE, [])
+    new_count, skipped = 0, 0
+
     for sym in SYMBOLS:
         try:
             df = fetch(sym)
             if df is None or len(df) < LOOKBACK:
+                skipped += 1
+                print(f"skipped {sym}: only {0 if df is None else len(df)} bars (need {LOOKBACK})")
                 continue
             closes = df["Close"].values[-LOOKBACK:]
             price = float(closes[-1])
             name = pretty(sym)
             cls = asset_class(sym)
+            candle_time = df.index[-1].isoformat()  # identifies the current (maybe still-forming) candle
 
             rc_dir = regression_signal(closes)
             if rc_dir:
-                alert = {"pair": name, "direction": rc_dir, "strategy": "regression",
-                          "asset": cls, "price": round(price, 5),
-                          "time": datetime.now(timezone.utc).isoformat()}
-                alerts.append(alert)
-                send_telegram(f"{rc_dir.upper()} {name} - regression channel @ {alert['price']}")
+                key = f"{sym}:regression"
+                if state.get(key) != candle_time:  # only alert once per candle, not once per run
+                    state[key] = candle_time
+                    new_count += 1
+                    alert = {"pair": name, "direction": rc_dir, "strategy": "regression",
+                              "asset": cls, "price": round(price, 5),
+                              "time": datetime.now(timezone.utc).isoformat()}
+                    results.insert(0, alert)
+                    send_telegram(f"{rc_dir.upper()} {name} - regression channel @ {alert['price']}")
 
             cs_dir, pattern = candlestick_signal(df)
             if cs_dir:
-                alert = {"pair": name, "direction": cs_dir, "strategy": "candlestick",
-                          "pattern": pattern, "asset": cls, "price": round(price, 5),
-                          "time": datetime.now(timezone.utc).isoformat()}
-                alerts.append(alert)
-                send_telegram(f"{cs_dir.upper()} {name} - {pattern} @ {alert['price']}")
+                key = f"{sym}:candlestick"
+                if state.get(key) != candle_time:
+                    state[key] = candle_time
+                    new_count += 1
+                    alert = {"pair": name, "direction": cs_dir, "strategy": "candlestick",
+                              "pattern": pattern, "asset": cls, "price": round(price, 5),
+                              "time": datetime.now(timezone.utc).isoformat()}
+                    results.insert(0, alert)
+                    send_telegram(f"{cs_dir.upper()} {name} - {pattern} @ {alert['price']}")
         except Exception as e:
             print(f"skipped {sym}: {e}")
 
-    with open("results.json", "w") as f:
-        json.dump(alerts, f, indent=2)
-    print(f"scan complete: {len(alerts)} alert(s) across {len(SYMBOLS)} symbols")
+    results = results[:MAX_RESULTS]
+    with open(STATE_FILE, "w") as f:
+        json.dump(state, f, indent=2)
+    with open(RESULTS_FILE, "w") as f:
+        json.dump(results, f, indent=2)
+    print(f"scan complete: {new_count} new alert(s), {skipped} symbol(s) skipped, "
+          f"{len(results)} total kept in the feed")
 
 
 if __name__ == "__main__":
