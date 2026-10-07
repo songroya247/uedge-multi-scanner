@@ -1,5 +1,56 @@
 [
   {
+    "pair": "DAX",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Hammer",
+    "asset": "index",
+    "price": 25089.08984,
+    "time": "2026-10-07T20:19:56.659645+00:00"
+  },
+  {
+    "pair": "DAX",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "index",
+    "price": 25089.08984,
+    "time": "2026-10-07T20:19:56.193503+00:00"
+  },
+  {
+    "pair": "FTSE 100",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "index",
+    "price": 10457.37988,
+    "time": "2026-10-07T20:19:55.445949+00:00"
+  },
+  {
+    "pair": "Nasdaq",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Bullish engulfing",
+    "asset": "index",
+    "price": 27534.01172,
+    "time": "2026-10-07T20:19:54.764019+00:00"
+  },
+  {
+    "pair": "EUR/GBP",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 0.84743,
+    "time": "2026-10-07T20:19:52.908513+00:00"
+  },
+  {
+    "pair": "USD/CHF",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Shooting star",
+    "asset": "forex",
+    "price": 0.83338,
+    "time": "2026-10-07T20:19:51.184038+00:00"
+  },
+  {
     "pair": "XRP/USD",
     "direction": "buy",
     "strategy": "regression",
