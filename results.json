@@ -1,5 +1,104 @@
 [
   {
+    "pair": "XRP/USD",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 1.4302,
+    "time": "2026-10-07T14:38:07.977532+00:00"
+  },
+  {
+    "pair": "SOL/USD",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 115.83,
+    "time": "2026-10-07T14:38:07.045517+00:00"
+  },
+  {
+    "pair": "DAX",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "index",
+    "price": 25057.7207,
+    "time": "2026-10-07T14:38:06.150669+00:00"
+  },
+  {
+    "pair": "FTSE 100",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "index",
+    "price": 10457.01953,
+    "time": "2026-10-07T14:38:05.645624+00:00"
+  },
+  {
+    "pair": "Nasdaq",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "index",
+    "price": 27400.20312,
+    "time": "2026-10-07T14:38:04.936338+00:00"
+  },
+  {
+    "pair": "Dow Jones",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "index",
+    "price": 50986.19141,
+    "time": "2026-10-07T14:38:04.380808+00:00"
+  },
+  {
+    "pair": "GBP/JPY",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 208.88699,
+    "time": "2026-10-07T14:38:03.562267+00:00"
+  },
+  {
+    "pair": "EUR/JPY",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Hammer",
+    "asset": "forex",
+    "price": 176.929,
+    "time": "2026-10-07T14:38:02.825940+00:00"
+  },
+  {
+    "pair": "EUR/GBP",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Hammer",
+    "asset": "forex",
+    "price": 0.84698,
+    "time": "2026-10-07T14:38:02.167495+00:00"
+  },
+  {
+    "pair": "USD/CHF",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 0.83196,
+    "time": "2026-10-07T14:38:00.364176+00:00"
+  },
+  {
+    "pair": "USD/JPY",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 158.15199,
+    "time": "2026-10-07T14:37:59.468021+00:00"
+  },
+  {
+    "pair": "EUR/USD",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Hammer",
+    "asset": "forex",
+    "price": 1.11907,
+    "time": "2026-10-07T14:37:58.439715+00:00"
+  },
+  {
     "pair": "BNB/USD",
     "direction": "buy",
     "strategy": "candlestick",
