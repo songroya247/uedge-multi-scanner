@@ -1,5 +1,58 @@
 [
   {
+    "pair": "XRP/USD",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Shooting star",
+    "asset": "crypto",
+    "price": 1.3991,
+    "time": "2026-10-08T06:23:34.474732+00:00"
+  },
+  {
+    "pair": "SOL/USD",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Shooting star",
+    "asset": "crypto",
+    "price": 114.98,
+    "time": "2026-10-08T06:23:33.835632+00:00"
+  },
+  {
+    "pair": "ETH/USD",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Shooting star",
+    "asset": "crypto",
+    "price": 2560.8501,
+    "time": "2026-10-08T06:23:33.348070+00:00"
+  },
+  {
+    "pair": "BTC/USD",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Shooting star",
+    "asset": "crypto",
+    "price": 82670.96875,
+    "time": "2026-10-08T06:23:32.790841+00:00"
+  },
+  {
+    "pair": "EUR/GBP",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 0.84842,
+    "time": "2026-10-08T06:23:31.254159+00:00"
+  },
+  {
+    "pair": "USD/CHF",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Bearish engulfing",
+    "asset": "forex",
+    "price": 0.83274,
+    "time": "2026-10-08T06:23:30.249867+00:00"
+  },
+  {
     "pair": "BNB/USD",
     "direction": "sell",
     "strategy": "regression",
@@ -367,59 +420,5 @@
     "asset": "forex",
     "price": 1.12486,
     "time": "2026-10-07T01:08:47.831802+00:00"
-  },
-  {
-    "pair": "XRP/USD",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Shooting star",
-    "asset": "crypto",
-    "price": 1.4988,
-    "time": "2026-10-06T22:30:07.907663+00:00"
-  },
-  {
-    "pair": "SOL/USD",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Shooting star",
-    "asset": "crypto",
-    "price": 121.13,
-    "time": "2026-10-06T22:30:07.142266+00:00"
-  },
-  {
-    "pair": "EUR/GBP",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Shooting star",
-    "asset": "forex",
-    "price": 0.84805,
-    "time": "2026-10-06T21:58:03.756003+00:00"
-  },
-  {
-    "pair": "EUR/JPY",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Hammer",
-    "asset": "forex",
-    "price": 178.02299,
-    "time": "2026-10-06T21:58:04.365998+00:00"
-  },
-  {
-    "pair": "BTC/USD",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Hammer",
-    "asset": "crypto",
-    "price": 85603.0,
-    "time": "2026-10-06T21:58:06.206137+00:00"
-  },
-  {
-    "pair": "ETH/USD",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Hammer",
-    "asset": "crypto",
-    "price": 2697.6001,
-    "time": "2026-10-06T21:58:06.830869+00:00"
   }
 ]
