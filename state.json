@@ -5,10 +5,10 @@
   "USDJPY=X:regression": "2026-10-07T15:00:00+01:00",
   "USDCHF=X:regression": "2026-10-07T15:00:00+01:00",
   "NZDUSD=X:regression": "2026-10-07T08:00:00+01:00",
-  "EURJPY=X:candlestick": "2026-10-07T15:00:00+01:00",
+  "EURJPY=X:candlestick": "2026-10-08T01:00:00+01:00",
   "BNB-USD:candlestick": "2026-10-07T07:00:00+00:00",
   "GBPUSD=X:regression": "2026-10-07T08:00:00+01:00",
-  "USDJPY=X:candlestick": "2026-10-07T08:00:00+01:00",
+  "USDJPY=X:candlestick": "2026-10-08T01:00:00+01:00",
   "AUDUSD=X:regression": "2026-10-07T08:00:00+01:00",
   "EURGBP=X:regression": "2026-10-07T21:00:00+01:00",
   "EURJPY=X:regression": "2026-10-07T08:00:00+01:00",
@@ -21,7 +21,13 @@
   "^FTSE:regression": "2026-10-07T16:00:00+01:00",
   "SOL-USD:regression": "2026-10-07T14:00:00+00:00",
   "XRP-USD:regression": "2026-10-07T14:00:00+00:00",
-  "USDCHF=X:candlestick": "2026-10-07T21:00:00+01:00",
+  "USDCHF=X:candlestick": "2026-10-08T01:00:00+01:00",
   "^IXIC:candlestick": "2026-10-07T15:30:00-04:00",
-  "^GDAXI:candlestick": "2026-10-07T17:00:00+02:00"
+  "^GDAXI:candlestick": "2026-10-07T17:00:00+02:00",
+  "GBPJPY=X:candlestick": "2026-10-08T01:00:00+01:00",
+  "BTC-USD:regression": "2026-10-08T00:00:00+00:00",
+  "BTC-USD:candlestick": "2026-10-08T00:00:00+00:00",
+  "ETH-USD:regression": "2026-10-08T00:00:00+00:00",
+  "ETH-USD:candlestick": "2026-10-08T00:00:00+00:00",
+  "BNB-USD:regression": "2026-10-08T00:00:00+00:00"
 }
