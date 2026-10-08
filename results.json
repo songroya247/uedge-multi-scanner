@@ -4,6 +4,54 @@
     "direction": "buy",
     "strategy": "regression",
     "asset": "crypto",
+    "price": 730.03003,
+    "time": "2026-10-08T19:34:46.052333+00:00"
+  },
+  {
+    "pair": "Nasdaq",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "index",
+    "price": 27170.23047,
+    "time": "2026-10-08T19:34:44.629590+00:00"
+  },
+  {
+    "pair": "S&P 500",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "index",
+    "price": 7758.87012,
+    "time": "2026-10-08T19:34:43.091430+00:00"
+  },
+  {
+    "pair": "USD/CAD",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 1.4218,
+    "time": "2026-10-08T19:34:41.744009+00:00"
+  },
+  {
+    "pair": "USD/CHF",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 0.83157,
+    "time": "2026-10-08T19:34:41.086527+00:00"
+  },
+  {
+    "pair": "GBP/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 1.32251,
+    "time": "2026-10-08T19:34:40.231988+00:00"
+  },
+  {
+    "pair": "BNB/USD",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "crypto",
     "price": 754.67999,
     "time": "2026-10-08T13:48:29.146771+00:00"
   },
@@ -371,53 +419,5 @@
     "asset": "crypto",
     "price": 118.75,
     "time": "2026-10-07T07:24:55.443775+00:00"
-  },
-  {
-    "pair": "DAX",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "index",
-    "price": 25233.39062,
-    "time": "2026-10-07T07:24:54.270643+00:00"
-  },
-  {
-    "pair": "GBP/JPY",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 209.75999,
-    "time": "2026-10-07T07:24:52.842214+00:00"
-  },
-  {
-    "pair": "EUR/JPY",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 177.58501,
-    "time": "2026-10-07T07:24:52.072593+00:00"
-  },
-  {
-    "pair": "EUR/GBP",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 0.84657,
-    "time": "2026-10-07T07:24:51.366708+00:00"
-  },
-  {
-    "pair": "NZD/USD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 0.56079,
-    "time": "2026-10-07T07:24:50.648869+00:00"
-  },
-  {
-    "pair": "AUD/USD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 0.6972,
-    "time": "2026-10-07T07:24:49.627291+00:00"
   }
 ]
