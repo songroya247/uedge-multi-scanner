@@ -1,5 +1,45 @@
 [
   {
+    "pair": "DAX",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "index",
+    "price": 25153.81055,
+    "time": "2026-10-09T13:32:59.254693+00:00"
+  },
+  {
+    "pair": "EUR/GBP",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 0.84679,
+    "time": "2026-10-09T13:32:56.681225+00:00"
+  },
+  {
+    "pair": "USD/CAD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 1.42742,
+    "time": "2026-10-09T13:32:55.571532+00:00"
+  },
+  {
+    "pair": "GBP/USD",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 1.32198,
+    "time": "2026-10-09T13:32:53.999117+00:00"
+  },
+  {
+    "pair": "EUR/USD",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 1.11982,
+    "time": "2026-10-09T13:32:53.100959+00:00"
+  },
+  {
     "pair": "XRP/USD",
     "direction": "sell",
     "strategy": "regression",
@@ -377,45 +417,5 @@
     "asset": "forex",
     "price": 0.83338,
     "time": "2026-10-07T20:19:51.184038+00:00"
-  },
-  {
-    "pair": "XRP/USD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "crypto",
-    "price": 1.4302,
-    "time": "2026-10-07T14:38:07.977532+00:00"
-  },
-  {
-    "pair": "SOL/USD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "crypto",
-    "price": 115.83,
-    "time": "2026-10-07T14:38:07.045517+00:00"
-  },
-  {
-    "pair": "DAX",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "index",
-    "price": 25057.7207,
-    "time": "2026-10-07T14:38:06.150669+00:00"
-  },
-  {
-    "pair": "FTSE 100",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "index",
-    "price": 10457.01953,
-    "time": "2026-10-07T14:38:05.645624+00:00"
-  },
-  {
-    "pair": "Nasdaq",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "index",
-    "price": 27400.20312,
-    "time": "2026-10-07T14:38:04.936338+00:00"
   }
 ]
