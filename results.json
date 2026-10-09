@@ -1,5 +1,13 @@
 [
   {
+    "pair": "Dow Jones",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "index",
+    "price": 51742.57812,
+    "time": "2026-10-09T19:09:17.898763+00:00"
+  },
+  {
     "pair": "DAX",
     "direction": "sell",
     "strategy": "regression",
@@ -408,14 +416,5 @@
     "asset": "forex",
     "price": 0.84743,
     "time": "2026-10-07T20:19:52.908513+00:00"
-  },
-  {
-    "pair": "USD/CHF",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Shooting star",
-    "asset": "forex",
-    "price": 0.83338,
-    "time": "2026-10-07T20:19:51.184038+00:00"
   }
 ]

@@ -16,7 +16,7 @@
   "^GDAXI:regression": "2026-10-09T15:00:00+02:00",
   "EURUSD=X:candlestick": "2026-10-07T15:00:00+01:00",
   "EURGBP=X:candlestick": "2026-10-08T14:00:00+01:00",
-  "^DJI:regression": "2026-10-07T10:30:00-04:00",
+  "^DJI:regression": "2026-10-09T14:30:00-04:00",
   "^IXIC:regression": "2026-10-08T15:30:00-04:00",
   "^FTSE:regression": "2026-10-07T16:00:00+01:00",
   "SOL-USD:regression": "2026-10-08T13:00:00+00:00",
