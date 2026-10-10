@@ -1,6 +1,15 @@
 [
   {
     "pair": "SOL/USD",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Hammer",
+    "asset": "crypto",
+    "price": 110.19,
+    "time": "2026-10-10T19:03:45.953357+00:00"
+  },
+  {
+    "pair": "SOL/USD",
     "direction": "sell",
     "strategy": "regression",
     "asset": "crypto",
@@ -408,14 +417,5 @@
     "asset": "forex",
     "price": 0.83308,
     "time": "2026-10-08T00:17:15.862126+00:00"
-  },
-  {
-    "pair": "USD/JPY",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Bearish engulfing",
-    "asset": "forex",
-    "price": 157.918,
-    "time": "2026-10-08T00:17:15.120494+00:00"
   }
 ]
