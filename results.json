@@ -1,5 +1,14 @@
 [
   {
+    "pair": "BNB/USD",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Shooting star",
+    "asset": "crypto",
+    "price": 749.12,
+    "time": "2026-10-10T08:50:01.870215+00:00"
+  },
+  {
     "pair": "Dow Jones",
     "direction": "sell",
     "strategy": "candlestick",
@@ -409,13 +418,5 @@
     "asset": "index",
     "price": 25089.08984,
     "time": "2026-10-07T20:19:56.193503+00:00"
-  },
-  {
-    "pair": "FTSE 100",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "index",
-    "price": 10457.37988,
-    "time": "2026-10-07T20:19:55.445949+00:00"
   }
 ]
