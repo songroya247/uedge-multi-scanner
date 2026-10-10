@@ -1,5 +1,21 @@
 [
   {
+    "pair": "SOL/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 110.48,
+    "time": "2026-10-10T14:55:09.747496+00:00"
+  },
+  {
+    "pair": "ETH/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 2506.78003,
+    "time": "2026-10-10T14:55:09.174711+00:00"
+  },
+  {
     "pair": "BNB/USD",
     "direction": "sell",
     "strategy": "candlestick",
@@ -401,22 +417,5 @@
     "asset": "forex",
     "price": 157.918,
     "time": "2026-10-08T00:17:15.120494+00:00"
-  },
-  {
-    "pair": "DAX",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Hammer",
-    "asset": "index",
-    "price": 25089.08984,
-    "time": "2026-10-07T20:19:56.659645+00:00"
-  },
-  {
-    "pair": "DAX",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "index",
-    "price": 25089.08984,
-    "time": "2026-10-07T20:19:56.193503+00:00"
   }
 ]
