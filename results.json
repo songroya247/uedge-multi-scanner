@@ -1,5 +1,14 @@
 [
   {
+    "pair": "GBP/JPY",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Shooting star",
+    "asset": "forex",
+    "price": 209.437,
+    "time": "2026-10-11T23:01:10.120636+00:00"
+  },
+  {
     "pair": "SOL/USD",
     "direction": "sell",
     "strategy": "regression",
@@ -407,14 +416,5 @@
     "asset": "forex",
     "price": 0.84842,
     "time": "2026-10-08T06:23:31.254159+00:00"
-  },
-  {
-    "pair": "USD/CHF",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Bearish engulfing",
-    "asset": "forex",
-    "price": 0.83274,
-    "time": "2026-10-08T06:23:30.249867+00:00"
   }
 ]

@@ -24,7 +24,7 @@
   "USDCHF=X:candlestick": "2026-10-08T07:00:00+01:00",
   "^IXIC:candlestick": "2026-10-07T15:30:00-04:00",
   "^GDAXI:candlestick": "2026-10-07T17:00:00+02:00",
-  "GBPJPY=X:candlestick": "2026-10-09T07:00:00+01:00",
+  "GBPJPY=X:candlestick": "2026-10-12T00:00:00+01:00",
   "BTC-USD:regression": "2026-10-09T06:00:00+00:00",
   "BTC-USD:candlestick": "2026-10-11T14:00:00+00:00",
   "ETH-USD:regression": "2026-10-11T07:00:00+00:00",
