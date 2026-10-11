@@ -1,5 +1,13 @@
 [
   {
+    "pair": "BNB/USD",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 747.70001,
+    "time": "2026-10-11T01:25:07.342765+00:00"
+  },
+  {
     "pair": "SOL/USD",
     "direction": "buy",
     "strategy": "candlestick",
@@ -408,14 +416,5 @@
     "asset": "forex",
     "price": 176.812,
     "time": "2026-10-08T00:17:17.026208+00:00"
-  },
-  {
-    "pair": "USD/CHF",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Hammer",
-    "asset": "forex",
-    "price": 0.83308,
-    "time": "2026-10-08T00:17:15.862126+00:00"
   }
 ]
