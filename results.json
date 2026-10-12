@@ -1,5 +1,55 @@
 [
   {
+    "pair": "XRP/USD",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 1.3627,
+    "time": "2026-10-12T19:41:43.055423+00:00"
+  },
+  {
+    "pair": "BNB/USD",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Bullish engulfing",
+    "asset": "crypto",
+    "price": 745.5,
+    "time": "2026-10-12T19:41:42.296245+00:00"
+  },
+  {
+    "pair": "SOL/USD",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 108.02,
+    "time": "2026-10-12T19:41:41.585512+00:00"
+  },
+  {
+    "pair": "ETH/USD",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 2515.1001,
+    "time": "2026-10-12T19:41:40.826168+00:00"
+  },
+  {
+    "pair": "Dow Jones",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Bullish engulfing",
+    "asset": "index",
+    "price": 51823.78906,
+    "time": "2026-10-12T19:41:38.715711+00:00"
+  },
+  {
+    "pair": "GBP/JPY",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 209.541,
+    "time": "2026-10-12T19:41:37.492239+00:00"
+  },
+  {
     "pair": "BTC/USD",
     "direction": "buy",
     "strategy": "regression",
@@ -365,53 +415,5 @@
     "asset": "index",
     "price": 7758.87012,
     "time": "2026-10-08T19:34:43.091430+00:00"
-  },
-  {
-    "pair": "USD/CAD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 1.4218,
-    "time": "2026-10-08T19:34:41.744009+00:00"
-  },
-  {
-    "pair": "USD/CHF",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 0.83157,
-    "time": "2026-10-08T19:34:41.086527+00:00"
-  },
-  {
-    "pair": "GBP/USD",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 1.32251,
-    "time": "2026-10-08T19:34:40.231988+00:00"
-  },
-  {
-    "pair": "BNB/USD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "crypto",
-    "price": 754.67999,
-    "time": "2026-10-08T13:48:29.146771+00:00"
-  },
-  {
-    "pair": "SOL/USD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "crypto",
-    "price": 111.69,
-    "time": "2026-10-08T13:48:28.451524+00:00"
-  },
-  {
-    "pair": "Nasdaq",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "index",
-    "price": 27377.81836,
-    "time": "2026-10-08T13:48:27.126690+00:00"
   }
 ]
