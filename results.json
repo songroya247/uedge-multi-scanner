@@ -1,5 +1,88 @@
 [
   {
+    "pair": "XRP/USD",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Bullish engulfing",
+    "asset": "crypto",
+    "price": 1.3714,
+    "time": "2026-10-14T10:52:52.756163+00:00"
+  },
+  {
+    "pair": "FTSE 100",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "index",
+    "price": 10681.37988,
+    "time": "2026-10-14T10:52:51.550777+00:00"
+  },
+  {
+    "pair": "EUR/GBP",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 0.84363,
+    "time": "2026-10-14T10:52:50.233511+00:00"
+  },
+  {
+    "pair": "NZD/USD",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 0.56177,
+    "time": "2026-10-14T10:52:49.629385+00:00"
+  },
+  {
+    "pair": "USD/CAD",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Hammer",
+    "asset": "forex",
+    "price": 1.4213,
+    "time": "2026-10-14T10:52:49.139588+00:00"
+  },
+  {
+    "pair": "USD/CAD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 1.4213,
+    "time": "2026-10-14T10:52:48.779921+00:00"
+  },
+  {
+    "pair": "USD/CHF",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 0.83357,
+    "time": "2026-10-14T10:52:48.089587+00:00"
+  },
+  {
+    "pair": "GBP/USD",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 1.32652,
+    "time": "2026-10-14T10:52:47.474499+00:00"
+  },
+  {
+    "pair": "EUR/USD",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Hammer",
+    "asset": "forex",
+    "price": 1.11944,
+    "time": "2026-10-14T10:52:46.950500+00:00"
+  },
+  {
+    "pair": "EUR/USD",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 1.11944,
+    "time": "2026-10-14T10:52:46.544561+00:00"
+  },
+  {
     "pair": "ETH/USD",
     "direction": "sell",
     "strategy": "candlestick",
@@ -342,90 +425,5 @@
     "asset": "forex",
     "price": 209.267,
     "time": "2026-10-13T01:43:58.876807+00:00"
-  },
-  {
-    "pair": "EUR/JPY",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Shooting star",
-    "asset": "forex",
-    "price": 176.827,
-    "time": "2026-10-13T01:43:58.207029+00:00"
-  },
-  {
-    "pair": "EUR/GBP",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 0.84505,
-    "time": "2026-10-13T01:43:57.617509+00:00"
-  },
-  {
-    "pair": "USD/CAD",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Hammer",
-    "asset": "forex",
-    "price": 1.42744,
-    "time": "2026-10-13T01:43:56.811159+00:00"
-  },
-  {
-    "pair": "AUD/USD",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Shooting star",
-    "asset": "forex",
-    "price": 0.69551,
-    "time": "2026-10-13T01:43:56.196503+00:00"
-  },
-  {
-    "pair": "USD/JPY",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 158.371,
-    "time": "2026-10-13T01:43:55.446841+00:00"
-  },
-  {
-    "pair": "GBP/USD",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Shooting star",
-    "asset": "forex",
-    "price": 1.32132,
-    "time": "2026-10-13T01:43:52.581288+00:00"
-  },
-  {
-    "pair": "XRP/USD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "crypto",
-    "price": 1.3627,
-    "time": "2026-10-12T19:41:43.055423+00:00"
-  },
-  {
-    "pair": "BNB/USD",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Bullish engulfing",
-    "asset": "crypto",
-    "price": 745.5,
-    "time": "2026-10-12T19:41:42.296245+00:00"
-  },
-  {
-    "pair": "SOL/USD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "crypto",
-    "price": 108.02,
-    "time": "2026-10-12T19:41:41.585512+00:00"
-  },
-  {
-    "pair": "ETH/USD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "crypto",
-    "price": 2515.1001,
-    "time": "2026-10-12T19:41:40.826168+00:00"
   }
 ]
