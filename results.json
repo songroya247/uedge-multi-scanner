@@ -1,5 +1,29 @@
 [
   {
+    "pair": "DAX",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "index",
+    "price": 25615.65039,
+    "time": "2026-10-16T10:00:10.333181+00:00"
+  },
+  {
+    "pair": "NZD/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 0.56699,
+    "time": "2026-10-16T10:00:08.588901+00:00"
+  },
+  {
+    "pair": "AUD/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 0.69618,
+    "time": "2026-10-16T10:00:07.946072+00:00"
+  },
+  {
     "pair": "BTC/USD",
     "direction": "sell",
     "strategy": "candlestick",
@@ -396,32 +420,5 @@
     "asset": "crypto",
     "price": 1.3272,
     "time": "2026-10-15T01:06:56.867532+00:00"
-  },
-  {
-    "pair": "BNB/USD",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Shooting star",
-    "asset": "crypto",
-    "price": 729.38,
-    "time": "2026-10-15T01:06:56.189837+00:00"
-  },
-  {
-    "pair": "SOL/USD",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Shooting star",
-    "asset": "crypto",
-    "price": 104.39,
-    "time": "2026-10-15T01:06:55.484329+00:00"
-  },
-  {
-    "pair": "ETH/USD",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Shooting star",
-    "asset": "crypto",
-    "price": 2417.93994,
-    "time": "2026-10-15T01:06:54.704411+00:00"
   }
 ]
