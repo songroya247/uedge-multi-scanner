@@ -1,5 +1,22 @@
 [
   {
+    "pair": "BTC/USD",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Shooting star",
+    "asset": "crypto",
+    "price": 82143.49219,
+    "time": "2026-10-16T05:17:42.086808+00:00"
+  },
+  {
+    "pair": "AUD/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 0.69473,
+    "time": "2026-10-16T05:17:40.206424+00:00"
+  },
+  {
     "pair": "XRP/USD",
     "direction": "sell",
     "strategy": "candlestick",
@@ -406,22 +423,5 @@
     "asset": "crypto",
     "price": 2417.93994,
     "time": "2026-10-15T01:06:54.704411+00:00"
-  },
-  {
-    "pair": "EUR/GBP",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Bullish engulfing",
-    "asset": "forex",
-    "price": 0.84641,
-    "time": "2026-10-15T01:06:52.815404+00:00"
-  },
-  {
-    "pair": "EUR/GBP",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 0.84641,
-    "time": "2026-10-15T01:06:52.296044+00:00"
   }
 ]
