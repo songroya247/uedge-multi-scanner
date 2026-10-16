@@ -1,5 +1,30 @@
 [
   {
+    "pair": "GBP/JPY",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 210.58099,
+    "time": "2026-10-16T21:50:34.578400+00:00"
+  },
+  {
+    "pair": "EUR/GBP",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 0.84325,
+    "time": "2026-10-16T21:50:33.799644+00:00"
+  },
+  {
+    "pair": "USD/CAD",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Hammer",
+    "asset": "forex",
+    "price": 1.4137,
+    "time": "2026-10-16T21:50:32.938564+00:00"
+  },
+  {
     "pair": "XRP/USD",
     "direction": "buy",
     "strategy": "regression",
@@ -395,32 +420,5 @@
     "asset": "forex",
     "price": 0.56155,
     "time": "2026-10-15T19:44:24.312294+00:00"
-  },
-  {
-    "pair": "AUD/USD",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Hammer",
-    "asset": "forex",
-    "price": 0.69214,
-    "time": "2026-10-15T19:44:23.407064+00:00"
-  },
-  {
-    "pair": "USD/CHF",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Shooting star",
-    "asset": "forex",
-    "price": 0.82727,
-    "time": "2026-10-15T19:44:22.641083+00:00"
-  },
-  {
-    "pair": "GBP/USD",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Hammer",
-    "asset": "forex",
-    "price": 1.32735,
-    "time": "2026-10-15T19:44:21.593854+00:00"
   }
 ]

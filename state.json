@@ -10,9 +10,9 @@
   "GBPUSD=X:regression": "2026-10-16T19:00:00+01:00",
   "USDJPY=X:candlestick": "2026-10-13T17:00:00+01:00",
   "AUDUSD=X:regression": "2026-10-16T10:00:00+01:00",
-  "EURGBP=X:regression": "2026-10-16T19:00:00+01:00",
+  "EURGBP=X:regression": "2026-10-16T22:00:00+01:00",
   "EURJPY=X:regression": "2026-10-15T16:00:00+01:00",
-  "GBPJPY=X:regression": "2026-10-16T19:00:00+01:00",
+  "GBPJPY=X:regression": "2026-10-16T22:00:00+01:00",
   "^GDAXI:regression": "2026-10-16T11:00:00+02:00",
   "EURUSD=X:candlestick": "2026-10-14T20:00:00+01:00",
   "EURGBP=X:candlestick": "2026-10-16T01:00:00+01:00",
@@ -36,7 +36,7 @@
   "AUDUSD=X:candlestick": "2026-10-15T20:00:00+01:00",
   "^GSPC:candlestick": "2026-10-16T10:30:00-04:00",
   "GBPUSD=X:candlestick": "2026-10-15T20:00:00+01:00",
-  "USDCAD=X:candlestick": "2026-10-15T16:00:00+01:00",
+  "USDCAD=X:candlestick": "2026-10-16T22:00:00+01:00",
   "NZDUSD=X:candlestick": "2026-10-16T19:00:00+01:00",
   "^FTSE:candlestick": "2026-10-16T16:00:00+01:00"
 }
