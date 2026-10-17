@@ -1,5 +1,14 @@
 [
   {
+    "pair": "SOL/USD",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Hammer",
+    "asset": "crypto",
+    "price": 104.91,
+    "time": "2026-10-17T08:56:13.375315+00:00"
+  },
+  {
     "pair": "GBP/JPY",
     "direction": "buy",
     "strategy": "regression",
@@ -411,14 +420,5 @@
     "asset": "forex",
     "price": 0.84461,
     "time": "2026-10-15T19:44:24.996675+00:00"
-  },
-  {
-    "pair": "NZD/USD",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Hammer",
-    "asset": "forex",
-    "price": 0.56155,
-    "time": "2026-10-15T19:44:24.312294+00:00"
   }
 ]
