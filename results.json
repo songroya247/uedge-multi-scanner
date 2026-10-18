@@ -2,6 +2,22 @@
   {
     "pair": "XRP/USD",
     "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 1.2911,
+    "time": "2026-10-18T22:04:17.266475+00:00"
+  },
+  {
+    "pair": "SOL/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 103.09,
+    "time": "2026-10-18T22:04:16.296821+00:00"
+  },
+  {
+    "pair": "XRP/USD",
+    "direction": "sell",
     "strategy": "candlestick",
     "pattern": "Bearish engulfing",
     "asset": "crypto",
@@ -402,21 +418,5 @@
     "asset": "forex",
     "price": 1.33629,
     "time": "2026-10-16T14:40:23.516049+00:00"
-  },
-  {
-    "pair": "DAX",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "index",
-    "price": 25615.65039,
-    "time": "2026-10-16T10:00:10.333181+00:00"
-  },
-  {
-    "pair": "NZD/USD",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 0.56699,
-    "time": "2026-10-16T10:00:08.588901+00:00"
   }
 ]
