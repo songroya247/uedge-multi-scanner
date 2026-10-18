@@ -1,5 +1,14 @@
 [
   {
+    "pair": "SOL/USD",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Bullish engulfing",
+    "asset": "crypto",
+    "price": 103.6,
+    "time": "2026-10-18T01:17:49.129921+00:00"
+  },
+  {
     "pair": "XRP/USD",
     "direction": "sell",
     "strategy": "candlestick",
@@ -413,13 +422,5 @@
     "asset": "forex",
     "price": 209.87601,
     "time": "2026-10-15T19:44:26.966658+00:00"
-  },
-  {
-    "pair": "GBP/JPY",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 209.87601,
-    "time": "2026-10-15T19:44:26.492607+00:00"
   }
 ]
