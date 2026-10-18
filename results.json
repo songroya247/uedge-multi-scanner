@@ -1,5 +1,21 @@
 [
   {
+    "pair": "BNB/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 723.10999,
+    "time": "2026-10-18T11:28:28.158792+00:00"
+  },
+  {
+    "pair": "BTC/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 81990.28125,
+    "time": "2026-10-18T11:28:27.037108+00:00"
+  },
+  {
     "pair": "XRP/USD",
     "direction": "sell",
     "strategy": "candlestick",
@@ -408,21 +424,5 @@
     "asset": "crypto",
     "price": 732.62,
     "time": "2026-10-15T19:44:31.641713+00:00"
-  },
-  {
-    "pair": "BNB/USD",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "crypto",
-    "price": 732.62,
-    "time": "2026-10-15T19:44:31.160996+00:00"
-  },
-  {
-    "pair": "SOL/USD",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "crypto",
-    "price": 105.83,
-    "time": "2026-10-15T19:44:30.462861+00:00"
   }
 ]
