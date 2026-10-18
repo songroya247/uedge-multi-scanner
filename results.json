@@ -1,5 +1,45 @@
 [
   {
+    "pair": "XRP/USD",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 1.2712,
+    "time": "2026-10-18T14:44:25.556678+00:00"
+  },
+  {
+    "pair": "BNB/USD",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 713.25,
+    "time": "2026-10-18T14:44:24.863670+00:00"
+  },
+  {
+    "pair": "SOL/USD",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 101.88,
+    "time": "2026-10-18T14:44:24.209508+00:00"
+  },
+  {
+    "pair": "ETH/USD",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 2372.8501,
+    "time": "2026-10-18T14:44:23.560841+00:00"
+  },
+  {
+    "pair": "BTC/USD",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 81004.17188,
+    "time": "2026-10-18T14:44:22.845016+00:00"
+  },
+  {
     "pair": "BNB/USD",
     "direction": "sell",
     "strategy": "regression",
@@ -382,47 +422,5 @@
     "asset": "crypto",
     "price": 2456.37012,
     "time": "2026-10-15T22:47:30.302062+00:00"
-  },
-  {
-    "pair": "BTC/USD",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "crypto",
-    "price": 82420.88281,
-    "time": "2026-10-15T22:47:29.805504+00:00"
-  },
-  {
-    "pair": "GBP/JPY",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Bullish engulfing",
-    "asset": "forex",
-    "price": 209.847,
-    "time": "2026-10-15T22:47:28.537961+00:00"
-  },
-  {
-    "pair": "AUD/USD",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 0.69247,
-    "time": "2026-10-15T22:47:27.351192+00:00"
-  },
-  {
-    "pair": "XRP/USD",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "crypto",
-    "price": 1.3416,
-    "time": "2026-10-15T19:44:32.478968+00:00"
-  },
-  {
-    "pair": "BNB/USD",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Bearish engulfing",
-    "asset": "crypto",
-    "price": 732.62,
-    "time": "2026-10-15T19:44:31.641713+00:00"
   }
 ]
