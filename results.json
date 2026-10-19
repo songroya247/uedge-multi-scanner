@@ -4,6 +4,55 @@
     "direction": "sell",
     "strategy": "regression",
     "asset": "crypto",
+    "price": 1.3117,
+    "time": "2026-10-19T04:59:56.963492+00:00"
+  },
+  {
+    "pair": "BNB/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 728.0,
+    "time": "2026-10-19T04:59:56.320988+00:00"
+  },
+  {
+    "pair": "SOL/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 105.6,
+    "time": "2026-10-19T04:59:55.631944+00:00"
+  },
+  {
+    "pair": "ETH/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 2426.17993,
+    "time": "2026-10-19T04:59:54.968071+00:00"
+  },
+  {
+    "pair": "BTC/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 82686.10938,
+    "time": "2026-10-19T04:59:54.220386+00:00"
+  },
+  {
+    "pair": "AUD/USD",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Bearish engulfing",
+    "asset": "forex",
+    "price": 0.69769,
+    "time": "2026-10-19T04:59:51.015463+00:00"
+  },
+  {
+    "pair": "XRP/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
     "price": 1.302,
     "time": "2026-10-19T00:18:16.835252+00:00"
   },
@@ -362,57 +411,5 @@
     "asset": "crypto",
     "price": 2414.30005,
     "time": "2026-10-16T18:32:20.601751+00:00"
-  },
-  {
-    "pair": "FTSE 100",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Shooting star",
-    "asset": "index",
-    "price": 10879.73047,
-    "time": "2026-10-16T18:32:19.184426+00:00"
-  },
-  {
-    "pair": "Nasdaq",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Hammer",
-    "asset": "index",
-    "price": 26122.66211,
-    "time": "2026-10-16T18:32:18.440615+00:00"
-  },
-  {
-    "pair": "Dow Jones",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Hammer",
-    "asset": "index",
-    "price": 51882.19922,
-    "time": "2026-10-16T18:32:17.632624+00:00"
-  },
-  {
-    "pair": "S&P 500",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "index",
-    "price": 7646.14014,
-    "time": "2026-10-16T18:32:16.811064+00:00"
-  },
-  {
-    "pair": "GBP/JPY",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 210.444,
-    "time": "2026-10-16T18:32:16.025184+00:00"
-  },
-  {
-    "pair": "EUR/JPY",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Hammer",
-    "asset": "forex",
-    "price": 177.48,
-    "time": "2026-10-16T18:32:15.164039+00:00"
   }
 ]
