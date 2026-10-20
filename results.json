@@ -1,5 +1,46 @@
 [
   {
+    "pair": "XRP/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 1.314,
+    "time": "2026-10-20T15:29:16.443225+00:00"
+  },
+  {
+    "pair": "ETH/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 2429.06006,
+    "time": "2026-10-20T15:29:15.445874+00:00"
+  },
+  {
+    "pair": "BTC/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 82381.64062,
+    "time": "2026-10-20T15:29:14.726180+00:00"
+  },
+  {
+    "pair": "GBP/JPY",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 211.52901,
+    "time": "2026-10-20T15:29:13.296825+00:00"
+  },
+  {
+    "pair": "USD/JPY",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Bullish engulfing",
+    "asset": "forex",
+    "price": 158.142,
+    "time": "2026-10-20T15:29:11.679401+00:00"
+  },
+  {
     "pair": "ETH/USD",
     "direction": "sell",
     "strategy": "candlestick",
@@ -375,46 +416,5 @@
     "asset": "forex",
     "price": 177.168,
     "time": "2026-10-19T00:18:12.770159+00:00"
-  },
-  {
-    "pair": "USD/CAD",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Hammer",
-    "asset": "forex",
-    "price": 1.41204,
-    "time": "2026-10-19T00:18:11.768875+00:00"
-  },
-  {
-    "pair": "USD/CAD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 1.41204,
-    "time": "2026-10-19T00:18:11.438876+00:00"
-  },
-  {
-    "pair": "USD/JPY",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 157.76199,
-    "time": "2026-10-19T00:18:10.576528+00:00"
-  },
-  {
-    "pair": "XRP/USD",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "crypto",
-    "price": 1.2911,
-    "time": "2026-10-18T22:04:17.266475+00:00"
-  },
-  {
-    "pair": "SOL/USD",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "crypto",
-    "price": 103.09,
-    "time": "2026-10-18T22:04:16.296821+00:00"
   }
 ]
