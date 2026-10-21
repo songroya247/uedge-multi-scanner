@@ -1,5 +1,32 @@
 [
   {
+    "pair": "XRP/USD",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Bearish engulfing",
+    "asset": "crypto",
+    "price": 1.3863,
+    "time": "2026-10-21T20:47:37.433779+00:00"
+  },
+  {
+    "pair": "Dow Jones",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Bullish engulfing",
+    "asset": "index",
+    "price": 52851.78125,
+    "time": "2026-10-21T20:47:33.897972+00:00"
+  },
+  {
+    "pair": "USD/CAD",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Hammer",
+    "asset": "forex",
+    "price": 1.40489,
+    "time": "2026-10-21T20:47:32.117597+00:00"
+  },
+  {
     "pair": "BNB/USD",
     "direction": "buy",
     "strategy": "candlestick",
@@ -397,32 +424,5 @@
     "asset": "crypto",
     "price": 2400.65991,
     "time": "2026-10-19T21:38:33.200551+00:00"
-  },
-  {
-    "pair": "BTC/USD",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Shooting star",
-    "asset": "crypto",
-    "price": 81941.1875,
-    "time": "2026-10-19T21:38:32.686391+00:00"
-  },
-  {
-    "pair": "S&P 500",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Bearish engulfing",
-    "asset": "index",
-    "price": 7691.91992,
-    "time": "2026-10-19T21:38:31.600208+00:00"
-  },
-  {
-    "pair": "USD/CAD",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Hammer",
-    "asset": "forex",
-    "price": 1.41073,
-    "time": "2026-10-19T21:38:30.388799+00:00"
   }
 ]
