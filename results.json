@@ -1,5 +1,65 @@
 [
   {
+    "pair": "BNB/USD",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Bullish engulfing",
+    "asset": "crypto",
+    "price": 749.23999,
+    "time": "2026-10-21T17:27:26.031507+00:00"
+  },
+  {
+    "pair": "ETH/USD",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Bullish engulfing",
+    "asset": "crypto",
+    "price": 2511.41992,
+    "time": "2026-10-21T17:27:25.151431+00:00"
+  },
+  {
+    "pair": "BTC/USD",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Hammer",
+    "asset": "crypto",
+    "price": 84503.85938,
+    "time": "2026-10-21T17:27:24.407522+00:00"
+  },
+  {
+    "pair": "Nasdaq",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "index",
+    "price": 26760.45703,
+    "time": "2026-10-21T17:27:23.454795+00:00"
+  },
+  {
+    "pair": "S&P 500",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "index",
+    "price": 7764.87988,
+    "time": "2026-10-21T17:27:22.611136+00:00"
+  },
+  {
+    "pair": "NZD/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 0.57042,
+    "time": "2026-10-21T17:27:21.457576+00:00"
+  },
+  {
+    "pair": "EUR/USD",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Hammer",
+    "asset": "forex",
+    "price": 1.12385,
+    "time": "2026-10-21T17:27:19.217037+00:00"
+  },
+  {
     "pair": "GBP/JPY",
     "direction": "buy",
     "strategy": "regression",
@@ -364,64 +424,5 @@
     "asset": "forex",
     "price": 1.41073,
     "time": "2026-10-19T21:38:30.388799+00:00"
-  },
-  {
-    "pair": "USD/CAD",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 1.41073,
-    "time": "2026-10-19T21:38:30.073906+00:00"
-  },
-  {
-    "pair": "GBP/USD",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Bearish engulfing",
-    "asset": "forex",
-    "price": 1.33026,
-    "time": "2026-10-19T21:38:29.132708+00:00"
-  },
-  {
-    "pair": "BNB/USD",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Shooting star",
-    "asset": "crypto",
-    "price": 725.77002,
-    "time": "2026-10-19T17:16:07.985826+00:00"
-  },
-  {
-    "pair": "Nasdaq",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "index",
-    "price": 26465.65625,
-    "time": "2026-10-19T17:16:05.702609+00:00"
-  },
-  {
-    "pair": "EUR/GBP",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 0.84268,
-    "time": "2026-10-19T17:16:03.532635+00:00"
-  },
-  {
-    "pair": "NZD/USD",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Hammer",
-    "asset": "forex",
-    "price": 0.56632,
-    "time": "2026-10-19T17:16:02.622857+00:00"
-  },
-  {
-    "pair": "USD/CAD",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 1.40945,
-    "time": "2026-10-19T17:16:01.797947+00:00"
   }
 ]
