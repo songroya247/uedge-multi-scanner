@@ -1,5 +1,47 @@
 [
   {
+    "pair": "ETH/USD",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Bearish engulfing",
+    "asset": "crypto",
+    "price": 2372.70996,
+    "time": "2026-10-22T18:15:19.761930+00:00"
+  },
+  {
+    "pair": "Nasdaq",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "index",
+    "price": 26001.50195,
+    "time": "2026-10-22T18:15:18.067064+00:00"
+  },
+  {
+    "pair": "S&P 500",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "index",
+    "price": 7651.77979,
+    "time": "2026-10-22T18:15:17.102711+00:00"
+  },
+  {
+    "pair": "USD/CAD",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Shooting star",
+    "asset": "forex",
+    "price": 1.4001,
+    "time": "2026-10-22T18:15:14.901576+00:00"
+  },
+  {
+    "pair": "USD/CAD",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 1.4001,
+    "time": "2026-10-22T18:15:14.380891+00:00"
+  },
+  {
     "pair": "XRP/USD",
     "direction": "buy",
     "strategy": "candlestick",
@@ -371,47 +413,5 @@
     "asset": "index",
     "price": 7764.87988,
     "time": "2026-10-21T17:27:22.611136+00:00"
-  },
-  {
-    "pair": "NZD/USD",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 0.57042,
-    "time": "2026-10-21T17:27:21.457576+00:00"
-  },
-  {
-    "pair": "EUR/USD",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Hammer",
-    "asset": "forex",
-    "price": 1.12385,
-    "time": "2026-10-21T17:27:19.217037+00:00"
-  },
-  {
-    "pair": "GBP/JPY",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 211.55701,
-    "time": "2026-10-21T12:06:57.417169+00:00"
-  },
-  {
-    "pair": "NZD/USD",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Shooting star",
-    "asset": "forex",
-    "price": 0.56925,
-    "time": "2026-10-21T12:06:56.086487+00:00"
-  },
-  {
-    "pair": "GBP/JPY",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 211.44,
-    "time": "2026-10-21T06:12:13.278989+00:00"
   }
 ]
