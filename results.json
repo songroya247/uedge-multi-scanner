@@ -2,6 +2,90 @@
   {
     "pair": "XRP/USD",
     "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Bullish engulfing",
+    "asset": "crypto",
+    "price": 1.3274,
+    "time": "2026-10-22T13:57:29.983746+00:00"
+  },
+  {
+    "pair": "BTC/USD",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Bullish engulfing",
+    "asset": "crypto",
+    "price": 81712.92188,
+    "time": "2026-10-22T13:57:28.322870+00:00"
+  },
+  {
+    "pair": "FTSE 100",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "index",
+    "price": 10754.62988,
+    "time": "2026-10-22T13:57:27.308044+00:00"
+  },
+  {
+    "pair": "Dow Jones",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Hammer",
+    "asset": "index",
+    "price": 52804.82812,
+    "time": "2026-10-22T13:57:26.246713+00:00"
+  },
+  {
+    "pair": "EUR/GBP",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 0.83713,
+    "time": "2026-10-22T13:57:24.657993+00:00"
+  },
+  {
+    "pair": "NZD/USD",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Shooting star",
+    "asset": "forex",
+    "price": 0.5675,
+    "time": "2026-10-22T13:57:23.915460+00:00"
+  },
+  {
+    "pair": "NZD/USD",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 0.5675,
+    "time": "2026-10-22T13:57:23.485180+00:00"
+  },
+  {
+    "pair": "USD/CHF",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 0.82398,
+    "time": "2026-10-22T13:57:22.140585+00:00"
+  },
+  {
+    "pair": "GBP/USD",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 1.3374,
+    "time": "2026-10-22T13:57:21.125075+00:00"
+  },
+  {
+    "pair": "EUR/USD",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 1.11995,
+    "time": "2026-10-22T13:57:20.204232+00:00"
+  },
+  {
+    "pair": "XRP/USD",
+    "direction": "buy",
     "strategy": "regression",
     "asset": "crypto",
     "price": 1.3334,
@@ -329,89 +413,5 @@
     "asset": "forex",
     "price": 211.44,
     "time": "2026-10-21T06:12:13.278989+00:00"
-  },
-  {
-    "pair": "EUR/GBP",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Hammer",
-    "asset": "forex",
-    "price": 0.83928,
-    "time": "2026-10-21T06:12:12.658530+00:00"
-  },
-  {
-    "pair": "NZD/USD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 0.5676,
-    "time": "2026-10-21T06:12:12.181882+00:00"
-  },
-  {
-    "pair": "GBP/USD",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Bearish engulfing",
-    "asset": "forex",
-    "price": 1.33677,
-    "time": "2026-10-21T06:12:11.124826+00:00"
-  },
-  {
-    "pair": "GBP/USD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 1.33677,
-    "time": "2026-10-21T06:12:10.806286+00:00"
-  },
-  {
-    "pair": "EUR/USD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 1.12233,
-    "time": "2026-10-21T06:12:09.915896+00:00"
-  },
-  {
-    "pair": "SOL/USD",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Bearish engulfing",
-    "asset": "crypto",
-    "price": 106.19,
-    "time": "2026-10-21T01:09:01.745509+00:00"
-  },
-  {
-    "pair": "NZD/USD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 0.56779,
-    "time": "2026-10-21T01:08:58.373732+00:00"
-  },
-  {
-    "pair": "XRP/USD",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "crypto",
-    "price": 1.337,
-    "time": "2026-10-20T22:32:38.276056+00:00"
-  },
-  {
-    "pair": "BNB/USD",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "crypto",
-    "price": 741.53003,
-    "time": "2026-10-20T22:32:37.789110+00:00"
-  },
-  {
-    "pair": "ETH/USD",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Shooting star",
-    "asset": "crypto",
-    "price": 2455.51001,
-    "time": "2026-10-20T22:32:37.101297+00:00"
   }
 ]
