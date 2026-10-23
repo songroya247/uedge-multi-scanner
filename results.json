@@ -1,5 +1,21 @@
 [
   {
+    "pair": "Dow Jones",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "index",
+    "price": 52209.16016,
+    "time": "2026-10-23T22:26:21.483557+00:00"
+  },
+  {
+    "pair": "EUR/GBP",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 0.83764,
+    "time": "2026-10-23T22:26:20.204031+00:00"
+  },
+  {
     "pair": "FTSE 100",
     "direction": "buy",
     "strategy": "candlestick",
@@ -402,21 +418,5 @@
     "asset": "crypto",
     "price": 1.3334,
     "time": "2026-10-22T08:07:30.148453+00:00"
-  },
-  {
-    "pair": "BNB/USD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "crypto",
-    "price": 734.71002,
-    "time": "2026-10-22T08:07:29.536596+00:00"
-  },
-  {
-    "pair": "SOL/USD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "crypto",
-    "price": 104.0,
-    "time": "2026-10-22T08:07:28.884414+00:00"
   }
 ]
