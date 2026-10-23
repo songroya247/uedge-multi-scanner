@@ -1,5 +1,31 @@
 [
   {
+    "pair": "EUR/GBP",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Bullish engulfing",
+    "asset": "forex",
+    "price": 0.83725,
+    "time": "2026-10-23T00:15:19.813689+00:00"
+  },
+  {
+    "pair": "AUD/USD",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Hammer",
+    "asset": "forex",
+    "price": 0.7018,
+    "time": "2026-10-23T00:15:18.433194+00:00"
+  },
+  {
+    "pair": "USD/JPY",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 156.17999,
+    "time": "2026-10-23T00:15:17.324527+00:00"
+  },
+  {
     "pair": "XRP/USD",
     "direction": "buy",
     "strategy": "candlestick",
@@ -388,32 +414,5 @@
     "asset": "crypto",
     "price": 1.3863,
     "time": "2026-10-21T20:47:37.433779+00:00"
-  },
-  {
-    "pair": "Dow Jones",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Bullish engulfing",
-    "asset": "index",
-    "price": 52851.78125,
-    "time": "2026-10-21T20:47:33.897972+00:00"
-  },
-  {
-    "pair": "USD/CAD",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Hammer",
-    "asset": "forex",
-    "price": 1.40489,
-    "time": "2026-10-21T20:47:32.117597+00:00"
-  },
-  {
-    "pair": "BNB/USD",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Bullish engulfing",
-    "asset": "crypto",
-    "price": 749.23999,
-    "time": "2026-10-21T17:27:26.031507+00:00"
   }
 ]
