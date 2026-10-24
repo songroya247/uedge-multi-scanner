@@ -1,5 +1,29 @@
 [
   {
+    "pair": "BNB/USD",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 730.92999,
+    "time": "2026-10-24T09:40:02.604006+00:00"
+  },
+  {
+    "pair": "SOL/USD",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 101.2,
+    "time": "2026-10-24T09:40:01.961079+00:00"
+  },
+  {
+    "pair": "ETH/USD",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 2356.79004,
+    "time": "2026-10-24T09:40:00.207931+00:00"
+  },
+  {
     "pair": "XRP/USD",
     "direction": "sell",
     "strategy": "candlestick",
@@ -394,31 +418,5 @@
     "asset": "forex",
     "price": 1.4001,
     "time": "2026-10-22T18:15:14.901576+00:00"
-  },
-  {
-    "pair": "USD/CAD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 1.4001,
-    "time": "2026-10-22T18:15:14.380891+00:00"
-  },
-  {
-    "pair": "XRP/USD",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Bullish engulfing",
-    "asset": "crypto",
-    "price": 1.3274,
-    "time": "2026-10-22T13:57:29.983746+00:00"
-  },
-  {
-    "pair": "BTC/USD",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Bullish engulfing",
-    "asset": "crypto",
-    "price": 81712.92188,
-    "time": "2026-10-22T13:57:28.322870+00:00"
   }
 ]
