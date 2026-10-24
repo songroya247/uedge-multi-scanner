@@ -1,6 +1,24 @@
 [
   {
     "pair": "BNB/USD",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Bearish engulfing",
+    "asset": "crypto",
+    "price": 730.70001,
+    "time": "2026-10-24T13:43:55.463555+00:00"
+  },
+  {
+    "pair": "SOL/USD",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Bearish engulfing",
+    "asset": "crypto",
+    "price": 101.29,
+    "time": "2026-10-24T13:43:54.675047+00:00"
+  },
+  {
+    "pair": "BNB/USD",
     "direction": "buy",
     "strategy": "regression",
     "asset": "crypto",
@@ -401,22 +419,5 @@
     "asset": "index",
     "price": 26001.50195,
     "time": "2026-10-22T18:15:18.067064+00:00"
-  },
-  {
-    "pair": "S&P 500",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "index",
-    "price": 7651.77979,
-    "time": "2026-10-22T18:15:17.102711+00:00"
-  },
-  {
-    "pair": "USD/CAD",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Shooting star",
-    "asset": "forex",
-    "price": 1.4001,
-    "time": "2026-10-22T18:15:14.901576+00:00"
   }
 ]
