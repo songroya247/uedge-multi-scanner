@@ -4,6 +4,46 @@
     "direction": "sell",
     "strategy": "regression",
     "asset": "crypto",
+    "price": 1.3123,
+    "time": "2026-10-25T05:01:00.554957+00:00"
+  },
+  {
+    "pair": "BNB/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 747.28998,
+    "time": "2026-10-25T05:00:59.862722+00:00"
+  },
+  {
+    "pair": "SOL/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 102.49,
+    "time": "2026-10-25T05:00:59.199055+00:00"
+  },
+  {
+    "pair": "ETH/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 2365.1499,
+    "time": "2026-10-25T05:00:58.549451+00:00"
+  },
+  {
+    "pair": "BTC/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 80819.96094,
+    "time": "2026-10-25T05:00:57.645313+00:00"
+  },
+  {
+    "pair": "XRP/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
     "price": 1.2972,
     "time": "2026-10-25T00:24:44.043356+00:00"
   },
@@ -371,47 +411,5 @@
     "asset": "crypto",
     "price": 81594.99219,
     "time": "2026-10-23T05:06:48.065682+00:00"
-  },
-  {
-    "pair": "GBP/JPY",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 210.192,
-    "time": "2026-10-23T05:06:46.894380+00:00"
-  },
-  {
-    "pair": "EUR/JPY",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Bullish engulfing",
-    "asset": "forex",
-    "price": 175.972,
-    "time": "2026-10-23T05:06:46.387837+00:00"
-  },
-  {
-    "pair": "EUR/JPY",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 175.972,
-    "time": "2026-10-23T05:06:46.067153+00:00"
-  },
-  {
-    "pair": "USD/CAD",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 1.401,
-    "time": "2026-10-23T05:06:45.342618+00:00"
-  },
-  {
-    "pair": "USD/JPY",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Shooting star",
-    "asset": "forex",
-    "price": 156.993,
-    "time": "2026-10-23T05:06:44.502935+00:00"
   }
 ]
