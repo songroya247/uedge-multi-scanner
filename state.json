@@ -1,5 +1,5 @@
 {
-  "SOL-USD:candlestick": "2026-10-25T00:00:00+00:00",
+  "SOL-USD:candlestick": "2026-10-25T09:00:00+00:00",
   "XRP-USD:candlestick": "2026-10-24T22:00:00+00:00",
   "EURUSD=X:regression": "2026-10-22T14:00:00+01:00",
   "USDJPY=X:regression": "2026-10-23T06:00:00+01:00",
@@ -26,7 +26,7 @@
   "^GDAXI:candlestick": "2026-10-14T17:00:00+02:00",
   "GBPJPY=X:candlestick": "2026-10-20T06:00:00+01:00",
   "BTC-USD:regression": "2026-10-25T05:00:00+00:00",
-  "BTC-USD:candlestick": "2026-10-24T00:00:00+00:00",
+  "BTC-USD:candlestick": "2026-10-25T09:00:00+00:00",
   "ETH-USD:regression": "2026-10-25T05:00:00+00:00",
   "ETH-USD:candlestick": "2026-10-22T21:00:00+00:00",
   "BNB-USD:regression": "2026-10-25T05:00:00+00:00",
