@@ -2,6 +2,47 @@
   {
     "pair": "XRP/USD",
     "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 1.2972,
+    "time": "2026-10-25T00:24:44.043356+00:00"
+  },
+  {
+    "pair": "BNB/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 738.09998,
+    "time": "2026-10-25T00:24:43.512249+00:00"
+  },
+  {
+    "pair": "SOL/USD",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Hammer",
+    "asset": "crypto",
+    "price": 102.22,
+    "time": "2026-10-25T00:24:43.010868+00:00"
+  },
+  {
+    "pair": "SOL/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 102.22,
+    "time": "2026-10-25T00:24:42.685247+00:00"
+  },
+  {
+    "pair": "BTC/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 80694.67969,
+    "time": "2026-10-25T00:24:41.901367+00:00"
+  },
+  {
+    "pair": "XRP/USD",
+    "direction": "sell",
     "strategy": "candlestick",
     "pattern": "Shooting star",
     "asset": "crypto",
@@ -372,48 +413,5 @@
     "asset": "forex",
     "price": 156.993,
     "time": "2026-10-23T05:06:44.502935+00:00"
-  },
-  {
-    "pair": "USD/JPY",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 156.993,
-    "time": "2026-10-23T05:06:44.176590+00:00"
-  },
-  {
-    "pair": "EUR/USD",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Hammer",
-    "asset": "forex",
-    "price": 1.1212,
-    "time": "2026-10-23T05:06:43.310501+00:00"
-  },
-  {
-    "pair": "EUR/GBP",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Bullish engulfing",
-    "asset": "forex",
-    "price": 0.83725,
-    "time": "2026-10-23T00:15:19.813689+00:00"
-  },
-  {
-    "pair": "AUD/USD",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Hammer",
-    "asset": "forex",
-    "price": 0.7018,
-    "time": "2026-10-23T00:15:18.433194+00:00"
-  },
-  {
-    "pair": "USD/JPY",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 156.17999,
-    "time": "2026-10-23T00:15:17.324527+00:00"
   }
 ]
