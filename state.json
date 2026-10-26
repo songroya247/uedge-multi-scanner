@@ -1,10 +1,10 @@
 {
-  "SOL-USD:candlestick": "2026-10-26T05:00:00+00:00",
+  "SOL-USD:candlestick": "2026-10-26T11:00:00+00:00",
   "XRP-USD:candlestick": "2026-10-26T00:00:00+00:00",
   "EURUSD=X:regression": "2026-10-26T00:00:00+00:00",
-  "USDJPY=X:regression": "2026-10-26T00:00:00+00:00",
+  "USDJPY=X:regression": "2026-10-26T11:00:00+00:00",
   "USDCHF=X:regression": "2026-10-23T16:00:00+01:00",
-  "NZDUSD=X:regression": "2026-10-23T16:00:00+01:00",
+  "NZDUSD=X:regression": "2026-10-26T11:00:00+00:00",
   "EURJPY=X:candlestick": "2026-10-23T06:00:00+01:00",
   "BNB-USD:candlestick": "2026-10-26T05:00:00+00:00",
   "GBPUSD=X:regression": "2026-10-22T14:00:00+01:00",
@@ -36,7 +36,7 @@
   "AUDUSD=X:candlestick": "2026-10-26T05:00:00+00:00",
   "^GSPC:candlestick": "2026-10-23T10:30:00-04:00",
   "GBPUSD=X:candlestick": "2026-10-22T09:00:00+01:00",
-  "USDCAD=X:candlestick": "2026-10-26T05:00:00+00:00",
+  "USDCAD=X:candlestick": "2026-10-26T11:00:00+00:00",
   "NZDUSD=X:candlestick": "2026-10-22T14:00:00+01:00",
   "^FTSE:candlestick": "2026-10-23T16:00:00+01:00"
 }
