@@ -1,5 +1,31 @@
 [
   {
+    "pair": "BTC/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 80793.57812,
+    "time": "2026-10-27T22:45:47.035536+00:00"
+  },
+  {
+    "pair": "S&P 500",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Shooting star",
+    "asset": "index",
+    "price": 7722.97998,
+    "time": "2026-10-27T22:45:45.853643+00:00"
+  },
+  {
+    "pair": "GBP/USD",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Hammer",
+    "asset": "forex",
+    "price": 1.33073,
+    "time": "2026-10-27T22:45:43.828628+00:00"
+  },
+  {
     "pair": "XRP/USD",
     "direction": "sell",
     "strategy": "regression",
@@ -398,29 +424,5 @@
     "asset": "crypto",
     "price": 102.49,
     "time": "2026-10-25T05:00:59.199055+00:00"
-  },
-  {
-    "pair": "ETH/USD",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "crypto",
-    "price": 2365.1499,
-    "time": "2026-10-25T05:00:58.549451+00:00"
-  },
-  {
-    "pair": "BTC/USD",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "crypto",
-    "price": 80819.96094,
-    "time": "2026-10-25T05:00:57.645313+00:00"
-  },
-  {
-    "pair": "XRP/USD",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "crypto",
-    "price": 1.2972,
-    "time": "2026-10-25T00:24:44.043356+00:00"
   }
 ]
