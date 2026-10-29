@@ -1,5 +1,55 @@
 [
   {
+    "pair": "DAX",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Bearish engulfing",
+    "asset": "index",
+    "price": 26052.73047,
+    "time": "2026-10-29T17:12:29.746159+00:00"
+  },
+  {
+    "pair": "Nasdaq",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "index",
+    "price": 26175.30273,
+    "time": "2026-10-29T17:12:29.029584+00:00"
+  },
+  {
+    "pair": "GBP/JPY",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Bullish engulfing",
+    "asset": "forex",
+    "price": 211.13901,
+    "time": "2026-10-29T17:12:27.973006+00:00"
+  },
+  {
+    "pair": "GBP/JPY",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 211.13901,
+    "time": "2026-10-29T17:12:27.649165+00:00"
+  },
+  {
+    "pair": "USD/CHF",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 0.82594,
+    "time": "2026-10-29T17:12:26.289826+00:00"
+  },
+  {
+    "pair": "GBP/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 1.33747,
+    "time": "2026-10-29T17:12:25.472439+00:00"
+  },
+  {
     "pair": "XRP/USD",
     "direction": "buy",
     "strategy": "candlestick",
@@ -366,55 +416,5 @@
     "asset": "forex",
     "price": 209.791,
     "time": "2026-10-28T07:46:10.797824+00:00"
-  },
-  {
-    "pair": "GBP/JPY",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 209.791,
-    "time": "2026-10-28T07:46:10.378252+00:00"
-  },
-  {
-    "pair": "EUR/GBP",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Shooting star",
-    "asset": "forex",
-    "price": 0.83684,
-    "time": "2026-10-28T07:46:09.439230+00:00"
-  },
-  {
-    "pair": "EUR/GBP",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 0.83684,
-    "time": "2026-10-28T07:46:09.009815+00:00"
-  },
-  {
-    "pair": "USD/JPY",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 157.884,
-    "time": "2026-10-28T07:46:07.395451+00:00"
-  },
-  {
-    "pair": "EUR/USD",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Bullish engulfing",
-    "asset": "forex",
-    "price": 1.11235,
-    "time": "2026-10-28T07:46:06.475812+00:00"
-  },
-  {
-    "pair": "EUR/USD",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 1.11235,
-    "time": "2026-10-28T07:46:05.990845+00:00"
   }
 ]
