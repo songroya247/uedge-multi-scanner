@@ -1,6 +1,6 @@
 {
   "SOL-USD:candlestick": "2026-10-28T01:00:00+00:00",
-  "XRP-USD:candlestick": "2026-10-29T10:00:00+00:00",
+  "XRP-USD:candlestick": "2026-10-30T07:00:00+00:00",
   "EURUSD=X:regression": "2026-10-30T01:00:00+00:00",
   "USDJPY=X:regression": "2026-10-30T01:00:00+00:00",
   "USDCHF=X:regression": "2026-10-30T01:00:00+00:00",
@@ -21,7 +21,7 @@
   "^FTSE:regression": "2026-10-22T14:00:00+01:00",
   "SOL-USD:regression": "2026-10-30T01:00:00+00:00",
   "XRP-USD:regression": "2026-10-30T01:00:00+00:00",
-  "USDCHF=X:candlestick": "2026-10-27T01:00:00+00:00",
+  "USDCHF=X:candlestick": "2026-10-30T07:00:00+00:00",
   "^IXIC:candlestick": "2026-10-28T15:30:00-04:00",
   "^GDAXI:candlestick": "2026-10-29T17:00:00+01:00",
   "GBPJPY=X:candlestick": "2026-10-29T17:00:00+00:00",

@@ -1,6 +1,24 @@
 [
   {
     "pair": "XRP/USD",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Bearish engulfing",
+    "asset": "crypto",
+    "price": 1.2545,
+    "time": "2026-10-30T07:27:59.237385+00:00"
+  },
+  {
+    "pair": "USD/CHF",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Bearish engulfing",
+    "asset": "forex",
+    "price": 0.82222,
+    "time": "2026-10-30T07:27:54.462869+00:00"
+  },
+  {
+    "pair": "XRP/USD",
     "direction": "buy",
     "strategy": "regression",
     "asset": "crypto",
@@ -396,23 +414,5 @@
     "asset": "forex",
     "price": 1.1162,
     "time": "2026-10-28T23:55:23.410341+00:00"
-  },
-  {
-    "pair": "DAX",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Hammer",
-    "asset": "index",
-    "price": 25697.19922,
-    "time": "2026-10-28T19:59:31.815210+00:00"
-  },
-  {
-    "pair": "FTSE 100",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Hammer",
-    "asset": "index",
-    "price": 10691.4502,
-    "time": "2026-10-28T19:59:31.076223+00:00"
   }
 ]
