@@ -1,5 +1,45 @@
 [
   {
+    "pair": "Dow Jones",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "index",
+    "price": 51774.17969,
+    "time": "2026-10-30T23:22:48.270601+00:00"
+  },
+  {
+    "pair": "USD/CAD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 1.3973,
+    "time": "2026-10-30T23:22:46.983768+00:00"
+  },
+  {
+    "pair": "USD/CHF",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 0.8249,
+    "time": "2026-10-30T23:22:46.347228+00:00"
+  },
+  {
+    "pair": "USD/JPY",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 157.519,
+    "time": "2026-10-30T23:22:45.856763+00:00"
+  },
+  {
+    "pair": "GBP/USD",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 1.33894,
+    "time": "2026-10-30T23:22:45.069575+00:00"
+  },
+  {
     "pair": "BNB/USD",
     "direction": "buy",
     "strategy": "candlestick",
@@ -369,47 +409,5 @@
     "asset": "crypto",
     "price": 78901.71094,
     "time": "2026-10-29T21:54:13.359298+00:00"
-  },
-  {
-    "pair": "Nasdaq",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "index",
-    "price": 26188.00195,
-    "time": "2026-10-29T21:54:12.545264+00:00"
-  },
-  {
-    "pair": "NZD/USD",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Shooting star",
-    "asset": "forex",
-    "price": 0.56344,
-    "time": "2026-10-29T21:54:11.253428+00:00"
-  },
-  {
-    "pair": "USD/CHF",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 0.82396,
-    "time": "2026-10-29T21:54:10.127794+00:00"
-  },
-  {
-    "pair": "DAX",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Bearish engulfing",
-    "asset": "index",
-    "price": 26052.73047,
-    "time": "2026-10-29T17:12:29.746159+00:00"
-  },
-  {
-    "pair": "Nasdaq",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "index",
-    "price": 26175.30273,
-    "time": "2026-10-29T17:12:29.029584+00:00"
   }
 ]
