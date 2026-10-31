@@ -1,5 +1,14 @@
 [
   {
+    "pair": "SOL/USD",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Shooting star",
+    "asset": "crypto",
+    "price": 95.67,
+    "time": "2026-10-31T22:38:39.852405+00:00"
+  },
+  {
     "pair": "XRP/USD",
     "direction": "sell",
     "strategy": "candlestick",
@@ -405,13 +414,5 @@
     "asset": "forex",
     "price": 1.12145,
     "time": "2026-10-30T01:26:42.445948+00:00"
-  },
-  {
-    "pair": "XRP/USD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "crypto",
-    "price": 1.2533,
-    "time": "2026-10-29T21:54:15.293420+00:00"
   }
 ]
