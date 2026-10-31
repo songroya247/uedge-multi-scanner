@@ -1,5 +1,14 @@
 [
   {
+    "pair": "XRP/USD",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Shooting star",
+    "asset": "crypto",
+    "price": 1.2442,
+    "time": "2026-10-31T09:05:41.572397+00:00"
+  },
+  {
     "pair": "ETH/USD",
     "direction": "sell",
     "strategy": "candlestick",
@@ -402,13 +411,5 @@
     "asset": "crypto",
     "price": 97.08,
     "time": "2026-10-29T21:54:14.367776+00:00"
-  },
-  {
-    "pair": "ETH/USD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "crypto",
-    "price": 2267.21997,
-    "time": "2026-10-29T21:54:13.896398+00:00"
   }
 ]
