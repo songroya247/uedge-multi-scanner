@@ -1,5 +1,14 @@
 [
   {
+    "pair": "BTC/USD",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Hammer",
+    "asset": "crypto",
+    "price": 77848.99219,
+    "time": "2026-11-01T08:25:55.722815+00:00"
+  },
+  {
     "pair": "ETH/USD",
     "direction": "sell",
     "strategy": "regression",
@@ -406,13 +415,5 @@
     "asset": "forex",
     "price": 157.388,
     "time": "2026-10-30T01:26:43.943923+00:00"
-  },
-  {
-    "pair": "GBP/USD",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 1.34066,
-    "time": "2026-10-30T01:26:43.242735+00:00"
   }
 ]
