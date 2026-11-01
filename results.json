@@ -1,5 +1,14 @@
 [
   {
+    "pair": "BNB/USD",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Bullish engulfing",
+    "asset": "crypto",
+    "price": 707.84003,
+    "time": "2026-11-01T23:14:46.720043+00:00"
+  },
+  {
     "pair": "XRP/USD",
     "direction": "buy",
     "strategy": "regression",
@@ -406,13 +415,5 @@
     "asset": "crypto",
     "price": 2207.57007,
     "time": "2026-10-30T01:26:50.587168+00:00"
-  },
-  {
-    "pair": "BTC/USD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "crypto",
-    "price": 76832.17969,
-    "time": "2026-10-30T01:26:49.630901+00:00"
   }
 ]
