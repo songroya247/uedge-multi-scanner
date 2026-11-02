@@ -1,5 +1,47 @@
 [
   {
+    "pair": "SOL/USD",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 91.87,
+    "time": "2026-11-02T20:26:29.335161+00:00"
+  },
+  {
+    "pair": "ETH/USD",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Bullish engulfing",
+    "asset": "crypto",
+    "price": 2253.59009,
+    "time": "2026-11-02T20:26:28.639999+00:00"
+  },
+  {
+    "pair": "ETH/USD",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 2253.59009,
+    "time": "2026-11-02T20:26:28.191507+00:00"
+  },
+  {
+    "pair": "BTC/USD",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 76995.10156,
+    "time": "2026-11-02T20:26:27.414207+00:00"
+  },
+  {
+    "pair": "FTSE 100",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Shooting star",
+    "asset": "index",
+    "price": 10766.7998,
+    "time": "2026-11-02T20:26:26.361189+00:00"
+  },
+  {
     "pair": "BNB/USD",
     "direction": "buy",
     "strategy": "candlestick",
@@ -371,46 +413,5 @@
     "asset": "forex",
     "price": 1.33978,
     "time": "2026-10-30T19:33:47.328669+00:00"
-  },
-  {
-    "pair": "DAX",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "index",
-    "price": 25871.88086,
-    "time": "2026-10-30T14:26:10.715676+00:00"
-  },
-  {
-    "pair": "Nasdaq",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "index",
-    "price": 25490.27148,
-    "time": "2026-10-30T14:26:09.968936+00:00"
-  },
-  {
-    "pair": "Dow Jones",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Bearish engulfing",
-    "asset": "index",
-    "price": 51944.89062,
-    "time": "2026-10-30T14:26:09.303102+00:00"
-  },
-  {
-    "pair": "Dow Jones",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "index",
-    "price": 51944.89062,
-    "time": "2026-10-30T14:26:08.760846+00:00"
-  },
-  {
-    "pair": "S&P 500",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "index",
-    "price": 7598.16992,
-    "time": "2026-10-30T14:26:08.122600+00:00"
   }
 ]
