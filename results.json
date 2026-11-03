@@ -1,5 +1,86 @@
 [
   {
+    "pair": "XRP/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 1.2822,
+    "time": "2026-11-03T17:56:58.863683+00:00"
+  },
+  {
+    "pair": "SOL/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 93.31,
+    "time": "2026-11-03T17:56:57.842323+00:00"
+  },
+  {
+    "pair": "ETH/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 2295.30005,
+    "time": "2026-11-03T17:56:57.171269+00:00"
+  },
+  {
+    "pair": "BTC/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 77598.17188,
+    "time": "2026-11-03T17:56:56.436949+00:00"
+  },
+  {
+    "pair": "FTSE 100",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "index",
+    "price": 10650.73047,
+    "time": "2026-11-03T17:56:55.425230+00:00"
+  },
+  {
+    "pair": "S&P 500",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Hammer",
+    "asset": "index",
+    "price": 7581.08984,
+    "time": "2026-11-03T17:56:54.121813+00:00"
+  },
+  {
+    "pair": "GBP/JPY",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 212.692,
+    "time": "2026-11-03T17:56:53.394499+00:00"
+  },
+  {
+    "pair": "EUR/JPY",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 177.43201,
+    "time": "2026-11-03T17:56:52.719105+00:00"
+  },
+  {
+    "pair": "USD/CHF",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 0.82055,
+    "time": "2026-11-03T17:56:50.773844+00:00"
+  },
+  {
+    "pair": "USD/JPY",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 158.495,
+    "time": "2026-11-03T17:56:49.924767+00:00"
+  },
+  {
     "pair": "BNB/USD",
     "direction": "sell",
     "strategy": "regression",
@@ -332,89 +413,5 @@
     "asset": "crypto",
     "price": 1.2442,
     "time": "2026-10-31T09:05:41.572397+00:00"
-  },
-  {
-    "pair": "ETH/USD",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Shooting star",
-    "asset": "crypto",
-    "price": 2239.17993,
-    "time": "2026-10-31T02:34:53.911201+00:00"
-  },
-  {
-    "pair": "Dow Jones",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "index",
-    "price": 51774.17969,
-    "time": "2026-10-30T23:22:48.270601+00:00"
-  },
-  {
-    "pair": "USD/CAD",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 1.3973,
-    "time": "2026-10-30T23:22:46.983768+00:00"
-  },
-  {
-    "pair": "USD/CHF",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 0.8249,
-    "time": "2026-10-30T23:22:46.347228+00:00"
-  },
-  {
-    "pair": "USD/JPY",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 157.519,
-    "time": "2026-10-30T23:22:45.856763+00:00"
-  },
-  {
-    "pair": "GBP/USD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 1.33894,
-    "time": "2026-10-30T23:22:45.069575+00:00"
-  },
-  {
-    "pair": "BNB/USD",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Hammer",
-    "asset": "crypto",
-    "price": 697.25,
-    "time": "2026-10-30T19:33:54.423844+00:00"
-  },
-  {
-    "pair": "DAX",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Hammer",
-    "asset": "index",
-    "price": 25817.48047,
-    "time": "2026-10-30T19:33:53.476667+00:00"
-  },
-  {
-    "pair": "DAX",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "index",
-    "price": 25817.48047,
-    "time": "2026-10-30T19:33:53.151788+00:00"
-  },
-  {
-    "pair": "FTSE 100",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Bullish engulfing",
-    "asset": "index",
-    "price": 10736.13965,
-    "time": "2026-10-30T19:33:52.671163+00:00"
   }
 ]
