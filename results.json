@@ -1,5 +1,48 @@
 [
   {
+    "pair": "BNB/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 699.83002,
+    "time": "2026-11-03T22:48:49.166833+00:00"
+  },
+  {
+    "pair": "BTC/USD",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Bearish engulfing",
+    "asset": "crypto",
+    "price": 77704.61719,
+    "time": "2026-11-03T22:48:47.915686+00:00"
+  },
+  {
+    "pair": "Dow Jones",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Hammer",
+    "asset": "index",
+    "price": 51776.67188,
+    "time": "2026-11-03T22:48:46.643243+00:00"
+  },
+  {
+    "pair": "NZD/USD",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 0.55866,
+    "time": "2026-11-03T22:48:45.336501+00:00"
+  },
+  {
+    "pair": "USD/CAD",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Bullish engulfing",
+    "asset": "forex",
+    "price": 1.40088,
+    "time": "2026-11-03T22:48:44.684601+00:00"
+  },
+  {
     "pair": "XRP/USD",
     "direction": "sell",
     "strategy": "regression",
@@ -369,49 +412,5 @@
     "asset": "crypto",
     "price": 77848.99219,
     "time": "2026-11-01T08:25:55.722815+00:00"
-  },
-  {
-    "pair": "ETH/USD",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "crypto",
-    "price": 2266.18994,
-    "time": "2026-11-01T01:40:42.085304+00:00"
-  },
-  {
-    "pair": "SOL/USD",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Shooting star",
-    "asset": "crypto",
-    "price": 95.67,
-    "time": "2026-10-31T22:38:39.852405+00:00"
-  },
-  {
-    "pair": "XRP/USD",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Bearish engulfing",
-    "asset": "crypto",
-    "price": 1.2519,
-    "time": "2026-10-31T19:25:06.236135+00:00"
-  },
-  {
-    "pair": "BNB/USD",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Bearish engulfing",
-    "asset": "crypto",
-    "price": 705.07001,
-    "time": "2026-10-31T19:25:05.473648+00:00"
-  },
-  {
-    "pair": "XRP/USD",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Shooting star",
-    "asset": "crypto",
-    "price": 1.2442,
-    "time": "2026-10-31T09:05:41.572397+00:00"
   }
 ]
