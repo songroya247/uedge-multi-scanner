@@ -1,5 +1,14 @@
 [
   {
+    "pair": "EUR/JPY",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Shooting star",
+    "asset": "forex",
+    "price": 177.79601,
+    "time": "2026-11-05T04:18:53.731480+00:00"
+  },
+  {
     "pair": "BNB/USD",
     "direction": "buy",
     "strategy": "candlestick",
@@ -403,13 +412,5 @@
     "asset": "forex",
     "price": 212.692,
     "time": "2026-11-03T17:56:53.394499+00:00"
-  },
-  {
-    "pair": "EUR/JPY",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 177.43201,
-    "time": "2026-11-03T17:56:52.719105+00:00"
   }
 ]
