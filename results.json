@@ -1,5 +1,47 @@
 [
   {
+    "pair": "BTC/USD",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Bullish engulfing",
+    "asset": "crypto",
+    "price": 75839.00781,
+    "time": "2026-11-07T00:40:34.972121+00:00"
+  },
+  {
+    "pair": "EUR/JPY",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Bullish engulfing",
+    "asset": "forex",
+    "price": 176.58501,
+    "time": "2026-11-07T00:40:33.690562+00:00"
+  },
+  {
+    "pair": "EUR/JPY",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 176.58501,
+    "time": "2026-11-07T00:40:33.374074+00:00"
+  },
+  {
+    "pair": "NZD/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 0.55475,
+    "time": "2026-11-07T00:40:32.768299+00:00"
+  },
+  {
+    "pair": "AUD/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 0.68681,
+    "time": "2026-11-07T00:40:32.135700+00:00"
+  },
+  {
     "pair": "EUR/JPY",
     "direction": "buy",
     "strategy": "candlestick",
@@ -374,46 +416,5 @@
     "asset": "forex",
     "price": 0.56237,
     "time": "2026-11-05T12:36:13.252178+00:00"
-  },
-  {
-    "pair": "USD/CAD",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 1.39742,
-    "time": "2026-11-05T12:36:12.805232+00:00"
-  },
-  {
-    "pair": "AUD/USD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 0.70033,
-    "time": "2026-11-05T12:36:12.313362+00:00"
-  },
-  {
-    "pair": "USD/CHF",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Hammer",
-    "asset": "forex",
-    "price": 0.8181,
-    "time": "2026-11-05T12:36:11.867285+00:00"
-  },
-  {
-    "pair": "USD/CHF",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 0.8181,
-    "time": "2026-11-05T12:36:11.554526+00:00"
-  },
-  {
-    "pair": "EUR/USD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 1.12221,
-    "time": "2026-11-05T12:36:10.707395+00:00"
   }
 ]
