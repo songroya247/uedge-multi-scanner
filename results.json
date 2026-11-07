@@ -1,5 +1,22 @@
 [
   {
+    "pair": "ETH/USD",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 2228.12012,
+    "time": "2026-11-07T22:07:44.402797+00:00"
+  },
+  {
+    "pair": "BTC/USD",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Shooting star",
+    "asset": "crypto",
+    "price": 75635.89844,
+    "time": "2026-11-07T22:07:43.897181+00:00"
+  },
+  {
     "pair": "BTC/USD",
     "direction": "buy",
     "strategy": "candlestick",
@@ -399,23 +416,5 @@
     "asset": "crypto",
     "price": 79790.3125,
     "time": "2026-11-05T12:36:15.618434+00:00"
-  },
-  {
-    "pair": "GBP/JPY",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Bullish engulfing",
-    "asset": "forex",
-    "price": 213.304,
-    "time": "2026-11-05T12:36:14.316737+00:00"
-  },
-  {
-    "pair": "EUR/GBP",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Bearish engulfing",
-    "asset": "forex",
-    "price": 0.83338,
-    "time": "2026-11-05T12:36:13.722406+00:00"
   }
 ]
