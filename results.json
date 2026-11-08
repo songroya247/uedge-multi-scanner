@@ -1,6 +1,32 @@
 [
   {
     "pair": "XRP/USD",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Bearish engulfing",
+    "asset": "crypto",
+    "price": 1.1512,
+    "time": "2026-11-08T19:51:18.127438+00:00"
+  },
+  {
+    "pair": "SOL/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 89.51,
+    "time": "2026-11-08T19:51:17.130851+00:00"
+  },
+  {
+    "pair": "BTC/USD",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Hammer",
+    "asset": "crypto",
+    "price": 75829.1875,
+    "time": "2026-11-08T19:51:15.924342+00:00"
+  },
+  {
+    "pair": "XRP/USD",
     "direction": "buy",
     "strategy": "candlestick",
     "pattern": "Hammer",
@@ -394,29 +420,5 @@
     "asset": "forex",
     "price": 0.83411,
     "time": "2026-11-05T20:25:10.428239+00:00"
-  },
-  {
-    "pair": "NZD/USD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 0.56004,
-    "time": "2026-11-05T20:25:09.606749+00:00"
-  },
-  {
-    "pair": "USD/CAD",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 1.40059,
-    "time": "2026-11-05T20:25:08.887304+00:00"
-  },
-  {
-    "pair": "AUD/USD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 0.69406,
-    "time": "2026-11-05T20:25:07.991262+00:00"
   }
 ]
