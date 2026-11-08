@@ -1,5 +1,13 @@
 [
   {
+    "pair": "BNB/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 698.76001,
+    "time": "2026-11-08T08:19:55.402020+00:00"
+  },
+  {
     "pair": "ETH/USD",
     "direction": "buy",
     "strategy": "regression",
@@ -408,13 +416,5 @@
     "asset": "crypto",
     "price": 2401.05005,
     "time": "2026-11-05T12:36:16.082159+00:00"
-  },
-  {
-    "pair": "BTC/USD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "crypto",
-    "price": 79790.3125,
-    "time": "2026-11-05T12:36:15.618434+00:00"
   }
 ]
