@@ -1,5 +1,14 @@
 [
   {
+    "pair": "EUR/GBP",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Hammer",
+    "asset": "forex",
+    "price": 0.83457,
+    "time": "2026-11-10T03:40:36.109267+00:00"
+  },
+  {
     "pair": "BNB/USD",
     "direction": "sell",
     "strategy": "regression",
@@ -408,13 +417,5 @@
     "asset": "forex",
     "price": 0.8346,
     "time": "2026-11-06T20:59:18.586209+00:00"
-  },
-  {
-    "pair": "NZD/USD",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 0.55417,
-    "time": "2026-11-06T20:59:17.888301+00:00"
   }
 ]
