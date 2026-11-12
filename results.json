@@ -1,5 +1,23 @@
 [
   {
+    "pair": "EUR/JPY",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Bearish engulfing",
+    "asset": "forex",
+    "price": 177.03101,
+    "time": "2026-11-12T02:36:27.370019+00:00"
+  },
+  {
+    "pair": "GBP/USD",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Bearish engulfing",
+    "asset": "forex",
+    "price": 1.32665,
+    "time": "2026-11-12T02:36:25.119670+00:00"
+  },
+  {
     "pair": "XRP/USD",
     "direction": "sell",
     "strategy": "candlestick",
@@ -409,21 +427,5 @@
     "asset": "forex",
     "price": 176.84399,
     "time": "2026-11-09T10:39:03.201815+00:00"
-  },
-  {
-    "pair": "NZD/USD",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 0.56107,
-    "time": "2026-11-09T10:39:02.456907+00:00"
-  },
-  {
-    "pair": "USD/CAD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 1.40796,
-    "time": "2026-11-09T10:39:01.797878+00:00"
   }
 ]
