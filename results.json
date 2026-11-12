@@ -1,5 +1,48 @@
 [
   {
+    "pair": "XRP/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 1.0404,
+    "time": "2026-11-12T23:55:57.764027+00:00"
+  },
+  {
+    "pair": "S&P 500",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Hammer",
+    "asset": "index",
+    "price": 7591.85986,
+    "time": "2026-11-12T23:55:55.768179+00:00"
+  },
+  {
+    "pair": "S&P 500",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "index",
+    "price": 7591.85986,
+    "time": "2026-11-12T23:55:55.461958+00:00"
+  },
+  {
+    "pair": "NZD/USD",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Bearish engulfing",
+    "asset": "forex",
+    "price": 0.55457,
+    "time": "2026-11-12T23:55:54.424655+00:00"
+  },
+  {
+    "pair": "USD/CHF",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Bullish engulfing",
+    "asset": "forex",
+    "price": 0.83582,
+    "time": "2026-11-12T23:55:53.623818+00:00"
+  },
+  {
     "pair": "DAX",
     "direction": "buy",
     "strategy": "candlestick",
@@ -383,46 +426,5 @@
     "asset": "forex",
     "price": 212.35201,
     "time": "2026-11-10T11:57:04.598805+00:00"
-  },
-  {
-    "pair": "EUR/JPY",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 177.414,
-    "time": "2026-11-10T11:57:03.964541+00:00"
-  },
-  {
-    "pair": "NZD/USD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 0.56309,
-    "time": "2026-11-10T11:57:03.054663+00:00"
-  },
-  {
-    "pair": "AUD/USD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 0.69118,
-    "time": "2026-11-10T11:57:02.096709+00:00"
-  },
-  {
-    "pair": "USD/JPY",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 158.172,
-    "time": "2026-11-10T11:57:01.223916+00:00"
-  },
-  {
-    "pair": "GBP/USD",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Bearish engulfing",
-    "asset": "forex",
-    "price": 1.34262,
-    "time": "2026-11-10T11:57:00.509621+00:00"
   }
 ]
