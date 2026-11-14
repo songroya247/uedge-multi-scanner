@@ -1,5 +1,39 @@
 [
   {
+    "pair": "EUR/JPY",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Bearish engulfing",
+    "asset": "forex",
+    "price": 175.98599,
+    "time": "2026-11-14T00:35:16.403275+00:00"
+  },
+  {
+    "pair": "EUR/JPY",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 175.98599,
+    "time": "2026-11-14T00:35:15.938306+00:00"
+  },
+  {
+    "pair": "USD/JPY",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Bearish engulfing",
+    "asset": "forex",
+    "price": 159.686,
+    "time": "2026-11-14T00:35:14.600815+00:00"
+  },
+  {
+    "pair": "USD/JPY",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 159.686,
+    "time": "2026-11-14T00:35:13.964305+00:00"
+  },
+  {
     "pair": "BNB/USD",
     "direction": "sell",
     "strategy": "regression",
@@ -385,39 +419,5 @@
     "asset": "forex",
     "price": 0.83268,
     "time": "2026-11-11T14:49:38.266184+00:00"
-  },
-  {
-    "pair": "USD/JPY",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 159.679,
-    "time": "2026-11-11T14:49:37.656979+00:00"
-  },
-  {
-    "pair": "EUR/USD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 1.10902,
-    "time": "2026-11-11T14:49:36.794668+00:00"
-  },
-  {
-    "pair": "BNB/USD",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Bearish engulfing",
-    "asset": "crypto",
-    "price": 676.46002,
-    "time": "2026-11-11T06:51:52.500874+00:00"
-  },
-  {
-    "pair": "ETH/USD",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Bearish engulfing",
-    "asset": "crypto",
-    "price": 2052.37012,
-    "time": "2026-11-11T06:51:51.727826+00:00"
   }
 ]
