@@ -1,5 +1,14 @@
 [
   {
+    "pair": "ETH/USD",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Hammer",
+    "asset": "crypto",
+    "price": 1822.26001,
+    "time": "2026-11-15T21:56:15.240836+00:00"
+  },
+  {
     "pair": "SOL/USD",
     "direction": "sell",
     "strategy": "candlestick",
@@ -405,13 +414,5 @@
     "asset": "forex",
     "price": 0.8359,
     "time": "2026-11-12T10:28:57.594795+00:00"
-  },
-  {
-    "pair": "NZD/USD",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 0.5567,
-    "time": "2026-11-12T10:28:57.012422+00:00"
   }
 ]
