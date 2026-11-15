@@ -1,5 +1,14 @@
 [
   {
+    "pair": "SOL/USD",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Bearish engulfing",
+    "asset": "crypto",
+    "price": 71.09,
+    "time": "2026-11-15T17:18:09.115854+00:00"
+  },
+  {
     "pair": "XRP/USD",
     "direction": "sell",
     "strategy": "regression",
@@ -404,13 +413,5 @@
     "asset": "forex",
     "price": 0.5567,
     "time": "2026-11-12T10:28:57.012422+00:00"
-  },
-  {
-    "pair": "USD/CAD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 1.4247,
-    "time": "2026-11-12T10:28:56.317651+00:00"
   }
 ]
