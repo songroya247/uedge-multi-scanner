@@ -1,5 +1,32 @@
 [
   {
+    "pair": "XRP/USD",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Bearish engulfing",
+    "asset": "crypto",
+    "price": 0.9524,
+    "time": "2026-11-16T08:27:04.821499+00:00"
+  },
+  {
+    "pair": "DAX",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Bearish engulfing",
+    "asset": "index",
+    "price": 26735.08984,
+    "time": "2026-11-16T08:27:03.558815+00:00"
+  },
+  {
+    "pair": "USD/CAD",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Hammer",
+    "asset": "forex",
+    "price": 1.42799,
+    "time": "2026-11-16T08:27:01.341424+00:00"
+  },
+  {
     "pair": "ETH/USD",
     "direction": "buy",
     "strategy": "candlestick",
@@ -388,31 +415,5 @@
     "asset": "forex",
     "price": 0.83582,
     "time": "2026-11-12T23:55:53.623818+00:00"
-  },
-  {
-    "pair": "DAX",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Hammer",
-    "asset": "index",
-    "price": 26816.58984,
-    "time": "2026-11-12T18:30:32.440297+00:00"
-  },
-  {
-    "pair": "EUR/JPY",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 176.61,
-    "time": "2026-11-12T18:30:30.011293+00:00"
-  },
-  {
-    "pair": "EUR/GBP",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Shooting star",
-    "asset": "forex",
-    "price": 0.83526,
-    "time": "2026-11-12T18:30:29.308147+00:00"
   }
 ]
