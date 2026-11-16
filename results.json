@@ -1,5 +1,88 @@
 [
   {
+    "pair": "DAX",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "index",
+    "price": 26629.75,
+    "time": "2026-11-16T18:44:48.163318+00:00"
+  },
+  {
+    "pair": "FTSE 100",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "index",
+    "price": 10892.92969,
+    "time": "2026-11-16T18:44:47.217051+00:00"
+  },
+  {
+    "pair": "Nasdaq",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Hammer",
+    "asset": "index",
+    "price": 24509.08594,
+    "time": "2026-11-16T18:44:46.707871+00:00"
+  },
+  {
+    "pair": "Nasdaq",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "index",
+    "price": 24509.08594,
+    "time": "2026-11-16T18:44:46.411368+00:00"
+  },
+  {
+    "pair": "Dow Jones",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "index",
+    "price": 51643.10156,
+    "time": "2026-11-16T18:44:45.909683+00:00"
+  },
+  {
+    "pair": "S&P 500",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "index",
+    "price": 7416.75977,
+    "time": "2026-11-16T18:44:45.397437+00:00"
+  },
+  {
+    "pair": "NZD/USD",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 0.54996,
+    "time": "2026-11-16T18:44:44.401791+00:00"
+  },
+  {
+    "pair": "AUD/USD",
+    "direction": "buy",
+    "strategy": "regression",
+    "asset": "forex",
+    "price": 0.67354,
+    "time": "2026-11-16T18:44:43.747324+00:00"
+  },
+  {
+    "pair": "USD/CHF",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Bullish engulfing",
+    "asset": "forex",
+    "price": 0.83994,
+    "time": "2026-11-16T18:44:43.249224+00:00"
+  },
+  {
+    "pair": "GBP/USD",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Bearish engulfing",
+    "asset": "forex",
+    "price": 1.31796,
+    "time": "2026-11-16T18:44:42.487927+00:00"
+  },
+  {
     "pair": "XRP/USD",
     "direction": "sell",
     "strategy": "candlestick",
@@ -331,89 +414,5 @@
     "asset": "crypto",
     "price": 1.0071,
     "time": "2026-11-13T04:22:44.497804+00:00"
-  },
-  {
-    "pair": "BNB/USD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "crypto",
-    "price": 634.62,
-    "time": "2026-11-13T04:22:43.881506+00:00"
-  },
-  {
-    "pair": "SOL/USD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "crypto",
-    "price": 78.55,
-    "time": "2026-11-13T04:22:43.274062+00:00"
-  },
-  {
-    "pair": "ETH/USD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "crypto",
-    "price": 1935.09998,
-    "time": "2026-11-13T04:22:42.673009+00:00"
-  },
-  {
-    "pair": "BTC/USD",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "crypto",
-    "price": 68887.54688,
-    "time": "2026-11-13T04:22:42.074375+00:00"
-  },
-  {
-    "pair": "USD/CHF",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Bullish engulfing",
-    "asset": "forex",
-    "price": 0.83553,
-    "time": "2026-11-13T04:22:39.349660+00:00"
-  },
-  {
-    "pair": "XRP/USD",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "crypto",
-    "price": 1.0404,
-    "time": "2026-11-12T23:55:57.764027+00:00"
-  },
-  {
-    "pair": "S&P 500",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Hammer",
-    "asset": "index",
-    "price": 7591.85986,
-    "time": "2026-11-12T23:55:55.768179+00:00"
-  },
-  {
-    "pair": "S&P 500",
-    "direction": "buy",
-    "strategy": "regression",
-    "asset": "index",
-    "price": 7591.85986,
-    "time": "2026-11-12T23:55:55.461958+00:00"
-  },
-  {
-    "pair": "NZD/USD",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Bearish engulfing",
-    "asset": "forex",
-    "price": 0.55457,
-    "time": "2026-11-12T23:55:54.424655+00:00"
-  },
-  {
-    "pair": "USD/CHF",
-    "direction": "buy",
-    "strategy": "candlestick",
-    "pattern": "Bullish engulfing",
-    "asset": "forex",
-    "price": 0.83582,
-    "time": "2026-11-12T23:55:53.623818+00:00"
   }
 ]
