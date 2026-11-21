@@ -1,5 +1,21 @@
 [
   {
+    "pair": "SOL/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 68.24,
+    "time": "2026-11-21T10:29:14.230163+00:00"
+  },
+  {
+    "pair": "ETH/USD",
+    "direction": "sell",
+    "strategy": "regression",
+    "asset": "crypto",
+    "price": 1642.96997,
+    "time": "2026-11-21T10:29:13.469680+00:00"
+  },
+  {
     "pair": "ETH/USD",
     "direction": "sell",
     "strategy": "candlestick",
@@ -404,21 +420,5 @@
     "asset": "forex",
     "price": 159.714,
     "time": "2026-11-19T08:10:51.606602+00:00"
-  },
-  {
-    "pair": "USD/JPY",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 159.714,
-    "time": "2026-11-19T08:10:51.187373+00:00"
-  },
-  {
-    "pair": "GBP/USD",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 1.3153,
-    "time": "2026-11-19T08:10:50.508464+00:00"
   }
 ]
