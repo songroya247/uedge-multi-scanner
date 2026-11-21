@@ -1,5 +1,14 @@
 [
   {
+    "pair": "ETH/USD",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Bearish engulfing",
+    "asset": "crypto",
+    "price": 1616.29004,
+    "time": "2026-11-21T02:55:52.248985+00:00"
+  },
+  {
     "pair": "XRP/USD",
     "direction": "buy",
     "strategy": "candlestick",
@@ -411,13 +420,5 @@
     "asset": "forex",
     "price": 1.3153,
     "time": "2026-11-19T08:10:50.508464+00:00"
-  },
-  {
-    "pair": "EUR/USD",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "forex",
-    "price": 1.09854,
-    "time": "2026-11-19T08:10:48.244406+00:00"
   }
 ]
