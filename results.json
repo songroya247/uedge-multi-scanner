@@ -3,6 +3,69 @@
     "pair": "BTC/USD",
     "direction": "buy",
     "strategy": "candlestick",
+    "pattern": "Bullish engulfing",
+    "asset": "crypto",
+    "price": 60471.51953,
+    "time": "2026-11-26T19:11:21.443970+00:00"
+  },
+  {
+    "pair": "FTSE 100",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Bearish engulfing",
+    "asset": "index",
+    "price": 10611.76953,
+    "time": "2026-11-26T19:11:20.873408+00:00"
+  },
+  {
+    "pair": "NZD/USD",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Shooting star",
+    "asset": "forex",
+    "price": 0.54726,
+    "time": "2026-11-26T19:11:19.658806+00:00"
+  },
+  {
+    "pair": "USD/CAD",
+    "direction": "buy",
+    "strategy": "candlestick",
+    "pattern": "Bullish engulfing",
+    "asset": "forex",
+    "price": 1.42471,
+    "time": "2026-11-26T19:11:19.248096+00:00"
+  },
+  {
+    "pair": "AUD/USD",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Shooting star",
+    "asset": "forex",
+    "price": 0.66335,
+    "time": "2026-11-26T19:11:18.768320+00:00"
+  },
+  {
+    "pair": "GBP/USD",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Shooting star",
+    "asset": "forex",
+    "price": 1.3107,
+    "time": "2026-11-26T19:11:18.017591+00:00"
+  },
+  {
+    "pair": "EUR/USD",
+    "direction": "sell",
+    "strategy": "candlestick",
+    "pattern": "Shooting star",
+    "asset": "forex",
+    "price": 1.09733,
+    "time": "2026-11-26T19:11:16.036818+00:00"
+  },
+  {
+    "pair": "BTC/USD",
+    "direction": "buy",
+    "strategy": "candlestick",
     "pattern": "Hammer",
     "asset": "crypto",
     "price": 60818.12109,
@@ -359,62 +422,5 @@
     "asset": "crypto",
     "price": 60448.91016,
     "time": "2026-11-24T02:41:06.979300+00:00"
-  },
-  {
-    "pair": "DAX",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "index",
-    "price": 25361.13086,
-    "time": "2026-11-24T02:41:06.370088+00:00"
-  },
-  {
-    "pair": "FTSE 100",
-    "direction": "sell",
-    "strategy": "candlestick",
-    "pattern": "Shooting star",
-    "asset": "index",
-    "price": 10486.34961,
-    "time": "2026-11-24T02:41:05.775143+00:00"
-  },
-  {
-    "pair": "FTSE 100",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "index",
-    "price": 10486.34961,
-    "time": "2026-11-24T02:41:05.394683+00:00"
-  },
-  {
-    "pair": "Dow Jones",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "index",
-    "price": 49599.89062,
-    "time": "2026-11-24T02:41:04.353177+00:00"
-  },
-  {
-    "pair": "XRP/USD",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "crypto",
-    "price": 1.006,
-    "time": "2026-11-23T15:32:20.584697+00:00"
-  },
-  {
-    "pair": "BNB/USD",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "crypto",
-    "price": 574.13,
-    "time": "2026-11-23T15:32:20.003511+00:00"
-  },
-  {
-    "pair": "SOL/USD",
-    "direction": "sell",
-    "strategy": "regression",
-    "asset": "crypto",
-    "price": 76.39,
-    "time": "2026-11-23T15:32:19.549860+00:00"
   }
 ]
